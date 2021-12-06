@@ -1,0 +1,84 @@
+body {
+	overflow: hidden;
+	color: #595959;
+	background-color: #0E1519;
+}
+#Path_2 {
+	fill: transparent;
+	stroke: rgba(89,89,89,1);
+	stroke-width: 5px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 122.957px;
+	height: 183.565px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 142.957px;
+	height: 183.565px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	transform: matrix(1,0,0,1,0,0);
+}
+
+.center {
+	top: 40%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+  .center-1 {
+	top: 45.7%;
+	left: 52%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+  .center-2 {
+	position: relative;
+	animation-name: example1;
+	animation: example1 2s;
+	animation-fill-mode: forwards;
+	
+  }
+
+  .text_, .text_ h2 {
+	position: relative;
+    top: 130px;
+	color: #595959 !important;
+  }
+
+  span.gap {
+    margin-left: 20px;
+	position: relative;
+	animation: example 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes example {
+	from {top: 0px;}
+	to {top: 50px;}
+  }
+
+  @keyframes example1 {
+	from {bottom: 0px;}
+	to {bottom: 100px;}
+  }
+
+

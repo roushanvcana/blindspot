@@ -35,7 +35,7 @@
 		</div>
 
 					<!-- Slide-5 Start-->
-			<div class="positive-relative ">	
+			<div class="positive-relative d-none ">	
 			  <div class="position-absolute center-1_ animation-6-left">
 				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565">
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
@@ -58,7 +58,62 @@
 		</div>
 	
 			</div>
-					<!-- Slide-5 Start-->
+					<!-- Slide-5 end-->
+					<div class="positive-relative ">
+						<div class="position-absolute center-1">
+							<!-- <svg class="Path_2_" viewBox="970.753 321.085 137.957 178.565">
+								<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
+								</path>
+							</svg> -->
+							<div class="align-item-center">
+								<h2>History of Boston Breakthrough Innovations</h2>
+							</div>
+							<div class="tab">
+								<button class="tablinks" onclick="openCity(event, '1800')">1800-1900</button>
+								<button class="tablinks" onclick="openCity(event, '1900')">1900-1920</button>
+								<button class="tablinks" onclick="openCity(event, '1920')">1920-1940</button>
+								<button class="tablinks" onclick="openCity(event, '1940')">1940-1960</button>
+								<button class="tablinks" onclick="openCity(event, '1960')">1960-1980</button>
+								<button class="tablinks" onclick="openCity(event, '1980')">1980-2000</button>
+								<button class="tablinks" onclick="openCity(event, '2000')">2000-2020</button>
+							  </div>
+							  
+							  <div id="1800" class="tabcontent">
+								<!-- <h3>London</h3> -->
+								<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p>
+							  </div>
+							  
+							  <div id="1900" class="tabcontent">
+								<!-- <h3>Paris</h3> -->
+								<p>From the Tea Party till our modern days, Boston has always nurtured rebellions who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p> 
+							  </div>
+							  
+							  <div id="1920" class="tabcontent">
+								<!-- <h3>Tokyo</h3> -->
+								<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p>
+							  </div>
+							  <div id="1940" class="tabcontent">
+								<!-- <h3>Tokyo</h3> -->
+								<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p>
+							  </div>
+							  <div id="1960" class="tabcontent">
+								<!-- <h3>Tokyo</h3> -->
+								<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p>
+							  </div>
+							  <div id="190" class="tabcontent">
+								<!-- <h3>Tokyo</h3> -->
+								<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+								</p>
+							  </div>
+						</div>
+					</div>
+					<!-- slide-20 -->
+
 
 	</div>
 
@@ -66,7 +121,21 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+	<script>
+		function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		</script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

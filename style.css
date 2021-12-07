@@ -81,4 +81,82 @@ body {
 	to {bottom: 100px;}
   }
 
+/*  */
+  #Path_2_ {
+	fill: transparent;
+	stroke: rgba(89,89,89,1);
+	stroke-width: 5px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_ {
+	overflow: visible;
+	position: absolute;
+	width: 122.957px;
+	height: 183.565px;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	transform: matrix(1,0,0,1,0,0) rotate(-90deg);
+}
+.center-1_ {
+	top: 25%;
+	right: 54.5%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+  .center-1__ {
+	top: 25%;
+	left: 46.5%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+.text__ {
+	position: relative;
+    top: 420px;
+	color: #595959 !important;
+}
+.animation-6{
+	position: relative;
+	animation-name: example6;
+	animation: example6 3s;
+	animation-fill-mode: forwards;
+	}
+	@keyframes example6 {
+		from {bottom: 0px;}
+		to {bottom: 130px;}
+	  }
+.animation-6-left {
+	position: relative;
+	animation-name: example6left;
+	animation-duration: 3s;  
+	animation-fill-mode: forwards;
+}
+@keyframes example6left {
+	from {right: 45%;}
+	to {right: 30%;}
+  }
+  
+  .animation-6-right {
+	position: relative;
+	animation-name: example6right;
+	animation-duration: 3s;  
+	animation-fill-mode: forwards;
+}
+@keyframes example6right {
+	from {left: 45%;}
+	to {left : 30%;}
+  }
+
+  h2.top-center {
+    position: relative;
+    top: 160px;
+    left: -18px;
+	font-size: 1.5rem;
+}
 

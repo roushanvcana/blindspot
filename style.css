@@ -155,14 +155,14 @@ body {
 
   h2.top-center-right {
     position: relative;
-    top: 160px;
+    top: 170px;
     right: -9px;
 	font-size: 1.5rem;
 }
 h2.top-center-left {
     position: relative;
-    top: 160px;
-    left: 64px;
+    top: 170px;
+    left: 55px;
 	font-size: 1.5rem;
 }
 

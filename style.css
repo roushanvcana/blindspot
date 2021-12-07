@@ -153,10 +153,39 @@ body {
 	to {left : 30%;}
   }
 
-  h2.top-center {
+  h2.top-center-right {
     position: relative;
     top: 160px;
-    left: -18px;
+    right: -9px;
+	font-size: 1.5rem;
+}
+h2.top-center-left {
+    position: relative;
+    top: 160px;
+    left: 64px;
 	font-size: 1.5rem;
 }
 
+.item {
+     display: block;
+     animation: fade_in_show 10s;
+}
+
+@keyframes fade_in_show {
+     0% {
+          opacity: 0;
+          transform: scale(0)
+     }
+     50% {
+		opacity: 1;
+		transform: scale(1)
+   }
+     100% {
+          opacity: 1;
+          transform: scale(1)
+     }
+}
+
+.text-right {
+
+}

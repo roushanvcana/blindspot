@@ -55,8 +55,15 @@ body {
 	position: relative;
 	animation-name: example1;
 	animation: example1 2s;
-	animation-fill-mode: forwards;	
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;	
   }
+
+  @keyframes example1 {
+	from {bottom: 40px;}
+	to {bottom: 150px;}
+  }
+
 
   .text_, .text_ h2 {
 	position: relative;
@@ -73,11 +80,6 @@ body {
 @keyframes example {
 	from {top: 0px;}
 	to {top: 50px;}
-  }
-
-  @keyframes example1 {
-	from {bottom: 40px;}
-	to {bottom: 150px;}
   }
 
 /*  */
@@ -188,3 +190,32 @@ h2.top-center-left {
 	display: none;
 }
 
+h2.center-left {
+    position: absolute;
+    top: 130px;
+    left: -160px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+h2.center-right {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    font-size: 1rem;
+    text-align: left;
+}
+.d-none_show1 {
+	display: none;
+}
+.past-section-right {
+	position: relative;
+	animation-name: examplepastsectionright;
+	animation: examplepastsectionright 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;	
+}
+@keyframes examplepastsectionright {
+	from {left: 40px;}
+	to {left: 150px;}
+  }

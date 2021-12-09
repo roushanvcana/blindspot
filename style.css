@@ -55,13 +55,12 @@ body {
 	position: relative;
 	animation-name: example1;
 	animation: example1 2s;
-	animation-fill-mode: forwards;
-	
+	animation-fill-mode: forwards;	
   }
 
   .text_, .text_ h2 {
 	position: relative;
-    top: 130px;
+    top: 200px;
 	color: #595959 !important;
   }
 
@@ -77,8 +76,8 @@ body {
   }
 
   @keyframes example1 {
-	from {bottom: 0px;}
-	to {bottom: 100px;}
+	from {bottom: 40px;}
+	to {bottom: 150px;}
   }
 
 /*  */
@@ -233,3 +232,4 @@ h2.top-center-left {
 .text-right {
 
 }
+

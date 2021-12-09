@@ -172,6 +172,50 @@ h2.top-center-left {
      animation: fade_in_show 10s;
 }
 
+/* slide-20 */
+
+.tab {
+	overflow: hidden;
+} 
+
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 14px;
+    transition: 0.3s;
+    font-size: 17px;
+    border: 6px solid #3c3c3c;
+    border-radius: 5%;
+    margin-right: 10px;
+	color:#3c3c3c;
+}
+  
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+	background-color: #ddd;
+  } */
+  
+  /* Create an active/current tablink class */
+  /* .tab button.active {
+	background-color: #ccc;
+  }
+   */
+  /* Style the tab content */
+  .tabcontent {
+	display: none;
+	padding: 6px 12px;
+		
+  }
+  .tabcontent {
+    padding-top: 30px;
+}
+.align-item-center {
+    padding-bottom: 50px;
 @keyframes fade_in_show {
      0% {
           opacity: 0;
@@ -186,8 +230,9 @@ h2.top-center-left {
           transform: scale(1)
      }
 }
-.d-none_show {
-	display: none;
+
+.text-right {
+
 }
 
 h2.center-left {

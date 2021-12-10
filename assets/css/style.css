@@ -1,0 +1,84 @@
+.front{
+  font-size: 1.5rem;
+}
+.one-col{
+  display:flex;
+
+}
+.one-cola{
+ margin:3px;
+ padding:3px;
+
+}
+.one-colb{
+  margin:3px;
+ Padding:3px;
+ flex: 0 0 50%;
+max-width: 37%;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.find{
+  margin:30px;
+}
+
+.containers {
+  background-color: #8191c5;
+  padding: 5px 20px 15px 20px;
+  border: 2px solid rgb(135, 162, 172);
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.star {
+  font-size: small;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c2b6b6;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+fieldset {
+  background-color: #fff;
+  border: 1px solid #c2b6b6;
+  border-radius: 25px;
+}
+
+.main_heading {
+  text-align: center;
+/*   font-family: cursive; */
+}
+
+/* h2 {
+  font-family: cursive;
+} */
+
+input[type="submit"] {
+  background-color: rgb(28, 78, 241);
+  color: aliceblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(4, 31, 82);
+}
+

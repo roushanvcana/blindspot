@@ -95,7 +95,7 @@ body {
 .Path_2_ {
 	overflow: visible;
 	position: absolute;
-	width: 122.957px;
+	/* width: 122.957px; */
 	height: 183.565px;
 	margin: 0;
 	top: 50%;
@@ -237,3 +237,50 @@ h2.center-right {
 	to {left: 50%;}
   }
 
+.rotate-move-up {
+	display: none;
+}
+
+.rotation-1 {
+	position: absolute;
+	animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+	100% {transform: rotate(180deg);}
+  }
+  .center-1__rotate {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+  .position_relative {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 560px;
+    left: 0;
+    margin: 0 auto;
+}
+.left_perma {
+
+}        
+
+.animation_to_left {
+    -webkit-animation: spin 6s infinite;
+    animation: spin 6s infinite;
+    position: absolute;
+    top: -421px;
+    left: -14px;
+}
+  @-webkit-keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(-45deg);
+	}
+  }
+  

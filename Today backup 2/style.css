@@ -219,21 +219,3 @@ h2.center-right {
 	from {left: 40px;}
 	to {left: 150px;}
   }
-
-  .left-perma {
-	  left: 30%;
-	  display: none;
-  }
-
-  .animation-6-left-to-right {
-	position: relative;
-	left: 30%;
-	animation-name: example6leftperma;
-	animation-duration: 3s;  
-	animation-fill-mode: forwards;
-}
-@keyframes example6leftperma {
-	from {left: 30%;}
-	to {left: 50%;}
-  }
-

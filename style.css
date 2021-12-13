@@ -45,7 +45,7 @@ body {
   }
 
   .center-1 {
-	top: 45.7%;
+	top: 58.7%;
 	left: 52%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -197,7 +197,13 @@ h2.center-left {
     font-size: 1rem;
     text-align: right;
 }
-
+h2.center-left1 {
+    position: absolute;
+    top: 130px;
+    left: -280px;
+    font-size: 1rem;
+    text-align: right;
+}
 h2.center-right {
     position: absolute;
     top: 130px;
@@ -236,4 +242,179 @@ h2.center-right {
 	from {left: 30%;}
 	to {left: 50%;}
   }
+
+.hide {
+  /*margin: auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;*/
+  animation: moveto60de 2s forwards;
+}
+@keyframes moveto60de {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+	}
+  /*50% {transform: rotate(-60deg);}*/
+}
+.blnd_spt {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 400px;
+    left: 0;
+    right: 0;
+}
+.slide15 {
+  top:-6%;
+  left:-152%;
+  animation: moveto150de 2s forwards;
+}
+.slide_15 {
+    position: relative;
+    top: 110px;
+    left: 120px;
+    text-align: center !important;
+}
+.slide_15 h2 {
+	text-align: center !important;
+}
+.slide15text {
+  top:-6%;
+  left:-152%;
+  animation: moveto30de 2s forwards;
+}
+.slide15div{
+	left:50%;
+	animation: movetobottom2top 2s forwards;
+}
+@keyframes moveto30de {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-30deg);
+	}
+	
+	
+  /*50% {transform: rotate(-60deg);}*/
+}
+@keyframes moveto150de {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-150deg);
+	}
+}
+@keyframes movetobottom2top {
+	from {top: 40%;}
+	to {top: -15%;}
+}
+.tab {
+	overflow: hidden;
+	
+  }
+  .aligna {
+    padding-bottom: 40px;
+}
+.tabcontent {
+    padding-top: 30px;
+}
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
+    border: 5px solid #595959;
+    margin-right: 9px;
+    border-radius: 5px;
+	color:#595959;
+}
+  
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+	background-color: #ddd;
+  }
+   */
+  /* Create an active/current tablink class */
+  /* .tab button.active {
+	background-color: #ccc;
+  } */
+  
+  /* Style the tab content */
+  .tabcontent {
+	display: none;
+	padding: 25px 0px;
+	
+	border-top: none;
+  }
+  /* Style tab links */
+.tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+  }
+  
+  .tablink:hover {
+	background-color: #777;
+  }
+  
+  form.form-inline {
+    display: flex;
+    align-items: center;
+}
+/* form */
+.position {
+    padding-top: 50px;
+}
+input#name {	
+    background: none;
+    margin-right: 20px;
+    padding-top: 30px;
+	border: none;
+}
+input#email {	
+    background: none;
+    margin-right: 20px;
+    padding-top: 30px;
+	border: none;
+}
+.form-control {
+	font-size: 1.5rem;
+    border-bottom: 3px solid #595959 !IMPORTANT;
+    border-radius: 0;
+    padding-bottom: 30px;
+}
+.btn-primary.btn{
+padding: 0.375rem 2.75rem;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+	border: 3px solid #595959;
+}
+.btn-primary {
+    color: #595959;
+    background-color: #0e1519;
+    border-color: #595959;
+    margin-top: 50px;
+	font-size: 1.5rem;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#0e1519;
+}
 

@@ -16,7 +16,7 @@
     <!--first slide start-->
 	  <div class="container">
 		<div class="positive-relative">			
-		  <div class="position-absolute center " id="slide1-2">
+		  <div class="position-absolute center" id="slide1-2">
 			<svg class="Path_2" viewBox="970.753 321.085 137.957 178.565">
 				<path id="Path_2" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
 				</path>
@@ -39,7 +39,7 @@
 		
 		<!-- Slide-5 Start-->
 			<div class="d-none_show hide_text-right">
-			  <div class="position-absolute center-1_ animation-6-left hide_rec ">
+			  <div class="position-absolute center-1_ animation-6-left hide_rec">
 				<svg class="Path_2_" viewBox="970.753 241.085 137.957 178.565">
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
 					</path>
@@ -48,7 +48,7 @@
 				<h2 class="center-right item d-none_show1">Thesis <br>Partners <br>Fellowship <br>Talent</h2>
 			</div>	 
 	
-		<div class="position-absolute center-1__ animation-6-right hide_text-dummy-hide ">
+		<div class="position-absolute center-1__ animation-6-right hide_text-dummy-hide">
 		    <div class="text-center hide_text-hide">
 				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565">
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z" onclick="pastexecution()">
@@ -59,7 +59,7 @@
 			</div>
 		</div>
 		<!--  left-to-right-->
-		<div class="position-absolute center-1 d-none__ hide_text-dummy-show left-perma animation-6-left-to-right " id="slide15div">
+		<div class="position-absolute center-1 d-none__ hide_text-dummy-show left-perma animation-6-left-to-right" id="slide15div">
 				<div class="text-center hide_text-hide">
 				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565" id="slide15"> 
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
@@ -76,11 +76,31 @@
 			<div class="animation-6 hide_text">
 			<h2 class="position-relative text-center text-white text__">BlindSpot<br>Ventures</h2>
 		</div>
+
+		<!--  Slide 29 Start right to left -->
+		<div class="position-absolute center-slide-29 d-none__ hide_text-dummy-show-slide-29 right-perma animation-6-right-to-left" id="slide21div">
+			<div class="text-center hide_text-hide">
+			<svg class="Path_29" viewBox="970.753 291.085 137.957 178.565" id=""> 
+				<path id="Path_29" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
+				</path>
+			</svg>
+			<h2 class="top-center-right-slide-29">Future</h2>
+		  <div class="" id="">
+			<h2 class="center-left-slide-29 d-none_show1-slide-29" id="">History <br>of Boston <br>Breakthrough <br>Innovations</h2>
+			<h2 class="position-relative text-white text__slide-29">BlindSpot<br>Ventures</h2>
+
+		  </div>
+			</div>
+		</div>
+
+		<div class="animation-6-slide-29 hide_text-slide-29">
+	</div>
+	<!--  Slide 29 end right to left -->
 	</div>
 </div>
 
  <!-- Slide-5 end--d-none -->
- <div class="position-absolute center-1" id="slide21">
+ <div class="position-absolute center-1 d-none" id="slide21">
 	<!--<div class="aligna">
 		<h2>History of Boston Breakthrough Innovations</h2>
 	</div>-->
@@ -220,6 +240,19 @@
 			setInterval(function()
 			{ 
 				$("#slide21").delay(25000).show()
+			}, 25000);
+
+			setInterval(function()
+			{ 
+				console.log('ddd')
+				var element = document.getElementById("slide29div");
+  				element.classList.add("slide29div");
+  				$(".d-none").show()
+				//$('.hide_text-dummy-show').delay(10000).show(0);
+			}, 20000);
+			setInterval(function()
+			{ 
+				$("#slide29-1").delay(25000).show()
 			}, 25000);
 			
 		}

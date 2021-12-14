@@ -12,9 +12,9 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    
+   
     <!--first slide start-->
-	  <div class="container">
+	  <div class="container pastall">
 		<div class="positive-relative">			
 		  <div class="position-absolute center " id="slide1-2">
 			<svg class="Path_2" viewBox="970.753 321.085 137.957 178.565">
@@ -38,7 +38,7 @@
 		<!--first slide end-->
 		
 		<!-- Slide-5 Start-->
-			<div class="d-none_show hide_text-right">
+		<div class="d-none_show hide_text-right">
 			  <div class="position-absolute center-1_ animation-6-left hide_rec ">
 				<svg class="Path_2_" viewBox="970.753 241.085 137.957 178.565">
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
@@ -50,8 +50,8 @@
 	
 		<div class="position-absolute center-1__ animation-6-right hide_text-dummy-hide ">
 		    <div class="text-center hide_text-hide">
-				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565">
-					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z" onclick="pastexecution()">
+				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565" onclick="pastexecution()">
+					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
 					</path>
 				</svg>
 				<h2 class="top-center-right item">Past</h2>
@@ -59,7 +59,7 @@
 			</div>
 		</div>
 		<!--  left-to-right-->
-		<div class="position-absolute center-1 d-none__ hide_text-dummy-show left-perma animation-6-left-to-right " id="slide15div">
+		<div class="position-absolute center-3 d-none__ hide_text-dummy-show left-perma animation-6-left-to-right " id="slide15div">
 				<div class="text-center hide_text-hide">
 				<svg class="Path_2_" viewBox="970.753 291.085 137.957 178.565" id="slide15"> 
 					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
@@ -78,9 +78,10 @@
 		</div>
 	</div>
 </div>
+</div>
 
  <!-- Slide-5 end--d-none -->
- <div class="position-absolute center-1" id="slide21">
+ <div class="position-absolute center-4" id="slide21">
 	<!--<div class="aligna">
 		<h2>History of Boston Breakthrough Innovations</h2>
 	</div>-->
@@ -136,17 +137,74 @@
 			
 			<input type="email" class="form-control" id="name" placeholder="Name*" name="name">
 			<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-			<button type="submit" class="btn btn-primary">Subscibe</button>
+			<button type="button" class="btn btn-primary" onclick="restartoption()">Subscibe</button>
 		  </form>
 		</div>
 		
-	
-	   
-		
-		
 	  </div>
-					<!-- slide-20 -->
-    
+	</div>
+		<!-- slide-20 -->
+	<div class="container" id="slide28">
+    	<!-- slide 28 new start here  -->
+         <div class="slide_28newmain" id="slide28pastcontent">
+         	<div class="slide_28newleft_text slide28pastcontent">
+         		<h6 id="slide28pastlinline">History<br>of Boston<br>Break through<br> Innovations</h6>
+         		<h5 id="slide28pastlinline1">Past</h5>
+         	</div>
+         	<div class="slide_28newsvgleft slide28pastsvg" id="slide28pastsvg" onclick="pastexecutionnew()">
+				<svg class="Path_2_" viewBox="970.753 241.085 137.957 178.565" id="svg28past" onclick="pastexecutionnew()">
+					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z" onclick="pastexecutionnew()">
+					</path>
+				</svg>
+         	</div>
+         	
+         	<div class="slide_28centertext slide28futuremiddle">
+                <h2>BlindSpot<br>Ventures</h2>
+         	</div>
+         	<div class="slide_28newsvgright slide28futuresvg" id="slide28futuresvg">
+				<svg class="Path_2_" viewBox="970.753 241.085 137.957 178.565" onclick="futureexecutionnew()" id="svg28future">
+					<path id="Path_2_" d="M 907.7529907226563 231.0845031738281 L 907.7529907226563 409.6497802734375 L 1045.7099609375 322.8703918457031 L 907.7529907226563 231.0845031738281 Z">
+					</path>
+				</svg>
+         		
+         	</div>
+         	<div class="slide_28newright_text slide28futuresvg">
+         		<h5 id="slide28futurecontent1">Future</h5>
+         		<h6 id="slide28futurecontent">Thesis<br>Partners<br>Fellowship<br>Talent</h6>
+         	</div>
+         </div>
+		<!-- slide 28 new end here -->
+    </div>
+
+    <div class="tab futuretab">
+		<button class="tablinks" onclick="openCity(event, 'thesis')">Thesis</button>
+		<button class="tablinks" onclick="openCity(event, 'partners')">Partners</button>
+		<button class="tablinks" onclick="openCity(event, 'fellowship')">Fellowship</button>
+		<button class="tablinks" onclick="openCity(event, 'talent')">Talent</button>
+	  </div>
+	<div class="futuretab_content">
+	  <div id="thesis" class="tabcontent">
+		<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+		</p>
+	  </div>
+	  
+	  <div id="partners" class="tabcontent">
+		
+		<p>From the Tea Party till our modern days, Boston has always nurtured rebellions who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+		</p> 
+	  </div>
+	  
+	  <div id="fellowship" class="tabcontent">
+		
+		<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+		</p>
+	  </div>
+	  <div id="talent" class="tabcontent">
+		<p> From the Tea Party till our modern days,who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+		</p>
+	  </div>
+	</div>
+	 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -176,6 +234,8 @@
 		$(".blnd_spt").hide()
 		$("#slide15text_2").hide()
 		$("#slide21").hide()
+		$("#slide28").hide();
+		$(".futuretab").hide()
 		setInterval(function()
 		{ 
 			var element = document.getElementById("slide1-2");
@@ -190,6 +250,7 @@
 		$('.d-none_show1').delay(4000).show(0);
 		function pastexecution()
 		{
+			console.log('start')
 			$('.hide_rec').delay(8000).hide(0);
 			$('.hide_text').delay(9500).hide(0);
 			$('.hide_text-dummy-hide').delay(10000).hide(0);
@@ -215,16 +276,121 @@
 				var element = document.getElementById("slide15div");
   				element.classList.add("slide15div");
   				$(".d-none").show()
-				//$('.hide_text-dummy-show').delay(10000).show(0);
+				$('.hide_text-dummy-show').delay(10000).show(0);
 			}, 20000);
 			setInterval(function()
 			{ 
 				$("#slide21").delay(25000).show()
 			}, 25000);
-			
 		}
+		
+		setInterval(function()
+		{ 
+			var element = document.getElementById("slide1-2");
+  			element.classList.add("hide");
+  			$('.d-none_show').delay(2000).show(0)
+  			$('.hide').delay(2000).hide(0)
+  			$(".blnd_spt1").hide()
+			$(".blnd_spt").delay(2000).hide()
+			$(".pastall").hide()
+			$("#slide28").show();
+		}, 9000);
+		//$('.blnd_spt').delay(4000).hide(0);
+		
+		//$('.d-none_show1').delay(4000).show(0);
 		/**/
-	</script>
+
+		//my code start from scratch
+		
+		function pastexecutionnew()
+		{
+			$("#slide28futurecontent").delay(2000).hide()
+			setInterval(function()
+			{ 
+				$(".slide28futuresvg").delay(3000).hide()
+			}, 2000);
+			setInterval(function()
+			{ 
+				$(".slide28futuremiddle").delay(3000).hide()
+			}, 3000);
+			setInterval(function()
+			{ 
+				console.log('ddd')
+				var element = document.getElementById("slide28pastcontent");
+				element.classList.add("slide28past");
+  				$("#slide15text_2").show()
+  				$('#slide15text_1').hide()
+			}, 4000);
+
+			setInterval(function()
+			{ 
+				console.log('ddd')
+				var element = document.getElementById("svg28past");
+				element.classList.add("slide15");
+				element.classList.add("slide_28newsvgcenter");
+				element.classList.remove("slide_28newsvgleft");
+				$('#slide28pastlinline').find('br').remove();
+				
+				var element = document.getElementById("slide28pastlinline");
+				element.style.top = '240px';
+				element.style.left = '200px';
+				element.style.width = '30%';
+				
+				element.classList.add("slide_28newleft_text_center");
+				
+  				$("#slide15text_2").show()
+  				$('#slide15text_1').hide()
+			}, 5000);
+			setInterval(function()
+			{ 
+				var element = document.getElementById("slide28pastcontent");
+  				element.classList.add("slide15divnew");
+  				$("#slide21").show()
+				$('.hide_text-dummy-show').delay(10000).show(0);
+			}, 6000);
+		}
+		function futureexecutionnew(){
+			$("#slide28pastlinline").delay(2000).hide()
+			setInterval(function()
+			{ 
+				$(".slide28pastsvg").delay(3000).hide()
+				$("#slide28pastlinline1").delay(3000).hide()
+			}, 2000);
+			setInterval(function()
+			{ 
+				$(".slide28futuremiddle").delay(3000).hide()
+			}, 3000);
+			setInterval(function()
+			{ 
+				var element = document.getElementById("slide28pastcontent");
+				element.classList.add("slide28future");
+  				$("#slide15text_2").show()
+  				$('#slide15text_1').hide()
+			}, 4000);
+			setInterval(function()
+			{ 
+				var element = document.getElementById("slide28pastcontent");
+  				element.classList.add("slide15divnew");
+				element.style.left = '0px';
+  				//$("#slide21").show()
+  				var element = document.getElementById("slide28futuresvg");
+  				element.style.left = '510px';
+  				element.style.top = '20px';
+  				var element = document.getElementById("slide28futurecontent1");
+  				element.style.left = '530px';
+  				element.style.top = '170px';
+				$("#slide28futurecontent").hide()
+
+				//$('.hide_text-dummy-show').delay(10000).show(0);
+				$(".futuretab").show()
+			}, 5000);
+		}
+		function restartoption()
+		{
+			$("#slide28").hide()
+			$("#slide28").show()
+		}
+	</script> 
 
   </body>
 </html>

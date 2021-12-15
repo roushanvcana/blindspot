@@ -99,11 +99,42 @@
 		
 		<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
 		</p>
+		<!-- The Timeline -->
+		<div class="Timelines">
+			<h3>Timeline</h3>
+			<ul class="timeline">
+				<!-- Item 1 -->
+				<li>
+					<div class="iconss">
+						<img src="images/handshake.png">
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="flags">Introduction to Inoculation </span>	
+						</div>
+						<div class="desc">From slave to saviour, Onesimus, whose name translates to “useful” – is a West-African man who spurred the first recorded innoculations in 18th century smallpox-ridden Boston. Kidnapped from his hometown and sold into Massachusetts Bay Colony, Onesimus’ revolutionary practices contributed to the eradication of the disease and the development of the first vaccine in Western medicine 75 years later.</div>
+					</div>
+				</li>
+				<!-- Item 2 -->
+				<li>
+					<div class="icon">
+						<img src="images/tire.png">
+					</div>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Vulcanized Rubber</span>
+								<!-- <span class="time-wrapper"><span class="time">2011 - 2013</span></span> -->
+						</div>
+						<div class="desc">There are three things you cannot escape in life –– death, taxes and vulcanized rubber. Think bowling balls, tires, hockey pucks and the soles of your shoes. In 1839, Charles Goodyear discovered this material when accidentally dropping rubber and sulfur in a hot frying pan. Realizing that the rubber does not melt, but instead, hardens, Goodyear discovered a new durable commercial product.</div>
+					</div>
+				</li>
+			</ul>
+		</div>				
 	  </div>
 	  
 	  <div id="1900" class="tabcontent">
 		
-		<p>From the Tea Party till our modern days, Boston has always nurtured rebellions who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
+		<p>From the Tea Party till our modern days, Boston has always nurtured rebellions who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story h#ighlight
 		</p> 
 	  </div>
 	  
@@ -133,12 +164,12 @@
 		</p>
 	  </div>
 	  <div class="position">
-		<form class="form-inline" action="/action_page.php">
+		<!--<form class="form-inline" action="/action_page.php">
 			
 			<input type="email" class="form-control" id="name" placeholder="Name*" name="name">
 			<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
 			<button type="button" class="btn btn-primary" onclick="restartoption()">Subscibe</button>
-		  </form>
+		  </form>-->
 		</div>
 		
 	  </div>
@@ -186,6 +217,7 @@
 	  <div id="thesis" class="tabcontent">
 		<p> who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
 		</p>
+
 	  </div>
 	  
 	  <div id="partners" class="tabcontent">
@@ -203,8 +235,11 @@
 		<p> From the Tea Party till our modern days,who challenged the status quo and inspired to build foundational truths. With the establishment of higher education, such mindset gave birth to unparalleled innovations ushering the world into heights never thought possible before. Below we highlight the history of Boston Innovation and honor what this city had to offer.  Subscribe to receive our monthly innovation story highlight
 		</p>
 	  </div>
+	  <div class="button_back" id="back_button_future"><a href="">Back</a></div>
 	</div>
 	 
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -236,6 +271,7 @@
 		$("#slide21").hide()
 		$("#slide28").hide();
 		$(".futuretab").hide()
+		$("#back_button_future").hide()
 		setInterval(function()
 		{ 
 			var element = document.getElementById("slide1-2");
@@ -332,22 +368,29 @@
 				$('#slide28pastlinline').find('br').remove();
 				
 				var element = document.getElementById("slide28pastlinline");
-				element.style.top = '240px';
-				element.style.left = '200px';
+				element.style.top = '165px';
+				element.style.left = '110px';
 				element.style.width = '30%';
 				
 				element.classList.add("slide_28newleft_text_center");
 				
   				$("#slide15text_2").show()
   				$('#slide15text_1').hide()
-			}, 5000);
+			}, 9000);
 			setInterval(function()
 			{ 
 				var element = document.getElementById("slide28pastcontent");
   				element.classList.add("slide15divnew");
+  				var element = document.getElementById("svg28past");
+				element.style.top = '41px';
+				var element = document.getElementById("slide28pastcontent");
+				element.style.left = '288px';
   				$("#slide21").show()
+  				$("#back_button_future").show()
+  				openCity(event, '1800')
 				$('.hide_text-dummy-show').delay(10000).show(0);
-			}, 6000);
+
+			}, 15000);
 		}
 		function futureexecutionnew(){
 			$("#slide28pastlinline").delay(2000).hide()
@@ -383,6 +426,9 @@
 
 				//$('.hide_text-dummy-show').delay(10000).show(0);
 				$(".futuretab").show()
+				$("#back_button_future").show()
+				openCity(event, 'thesis')
+
 			}, 5000);
 		}
 		function restartoption()
@@ -390,6 +436,7 @@
 			$("#slide28").hide()
 			$("#slide28").show()
 		}
+
 	</script> 
 
   </body>

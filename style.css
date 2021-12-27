@@ -82,7 +82,7 @@ body {
 
   @keyframes example1 {
 	from {bottom: 40px;}
-	to {bottom: 150px;}
+	to {bottom: 100px;}
   }
 
 
@@ -174,19 +174,30 @@ body {
 	from {left: 45%;}
 	to {left : 30%;}
   }
-
-  h2.top-center-right {
+h2.top-center-right {
+    position: relative;
+    top: 220px;
+    right: -290px;
+  font-size: 1.5rem;
+}
+  /*h2.top-center-right {
     position: relative;
     top: 170px;
     right: -9px;
 	font-size: 1.5rem;
-}
+}*/
 h2.top-center-left {
+    position: relative;
+    top: 264px;
+    left: 606px;
+  font-size: 1.5rem;
+}
+/*h2.top-center-left {
     position: relative;
     top: 170px;
     left: 55px;
 	font-size: 1.5rem;
-}
+}*/
 
 .item {
      display: block;
@@ -196,28 +207,34 @@ h2.top-center-left {
 @keyframes fade_in_show {
      0% {
           opacity: 0;
-          transform: scale(0)
+          /*transform: scale(0)*/
      }
      50% {
 		opacity: 1;
-		transform: scale(1)
+		/*transform: scale(1)*/
    }
      100% {
           opacity: 1;
-          transform: scale(1)
+          /*transform: scale(1)*/
      }
 }
 .d-none_show {
 	display: none;
 }
-
 h2.center-left {
+    position: absolute;
+    top: 200px;
+    left: 265px;
+    font-size: 1rem;
+    text-align: right;
+}
+/*h2.center-left {
     position: absolute;
     top: 130px;
     left: -160px;
     font-size: 1rem;
     text-align: right;
-}
+}*/
 h2.center-left1 {
     position: absolute;
     top: 130px;
@@ -227,11 +244,18 @@ h2.center-left1 {
 }
 h2.center-right {
     position: absolute;
+    top: 215px;
+    left: 840px;
+    font-size: 1rem;
+    text-align: left;
+}
+/*h2.center-right {
+    position: absolute;
     top: 130px;
     left: 180px;
     font-size: 1rem;
     text-align: left;
-}
+}*/
 .d-none_show1 {
 	display: none;
 }
@@ -281,7 +305,267 @@ h2.center-right {
 	from {right: 10%;}
 	to {right: 20%;}
   }
-
+/*23dec2021*/
+.rotate60svg{
+  animation: moveto60de 2s forwards;
+}
+.rotate90svg{
+  animation: rotate90de 2s forwards;
+}
+.svg2{
+  left:-21px;
+}
+.vright2left{
+  margin-left: 20px;
+  top:40px;
+  position: relative;
+  animation: example 2s;
+  animation-fill-mode: forwards;
+  animation: right2left 2s forwards;
+}
+.bottom2top{
+  animation: bottom2top 2s forwards;
+}
+.svg2moveright2left1{
+  left:-21px;
+  animation: moveright2left1 2s forwards;
+}
+.svg2moveleft2right1{
+  left:-21px;
+  animation: moveleft2right2 2s forwards;
+}
+.svg2moveright2left2{
+  left:-21px;
+  animation: moveright2left2 2s forwards;
+}
+.svg1moveleft2right1{
+  /*left:-21px;*/
+  animation: moveleft2right1 2s forwards;
+}
+.wholetextbottom2top1{
+  animation: bottom2top1 2s forwards;
+}
+.wholetextbottom2top2{
+  animation: bottom2top2 2s forwards;
+}
+.pasttextmoveleft2right{
+  animation: textLeft2Right1 2s forwards;
+}
+.pastContentmoveleft2right{
+  position: absolute;
+  top:200px;
+  font-size: 1rem;
+  text-align: right;
+  animation: contentLeft2Right1 2s forwards;
+}
+.svgrotate30svg{
+  animation: svgmoveto30de 2s forwards;
+}
+.svgrotate60svg{
+  animation: svgmoveto60de 2s forwards;
+}
+.pastContentmovetop2bottom{
+  position: absolute;
+  font-size: 1rem;
+  left:450px;
+  text-align: right;
+  animation: movetop2bottom1 2s forwards;
+}
+.pastContentmovetop2bottom1{
+  position: absolute;
+  font-size: 1rem;
+  left:490px;
+  text-align: right;
+  animation: movetop2bottom2 2s forwards;
+}
+.svg2movebottom2top1{
+  top:-100px;
+  animation: svg2movebottom2top1 2s backwards;
+  left:75px;
+}
+.pasttextmovebottom2top1{
+  position: relative;
+  right: -290px;
+  font-size: 1.5rem;
+  animation: pasttextmovebottom2top1 2s backwards;
+  top:145px;
+}
+.pastContentmovebottom2top1{
+  animation: pastContentmovebottom2top1 2s backwards;
+}
+.svg2movebottom2top2{
+  top:-100px;
+  animation: svg2movebottom2top2 2s backwards;
+  left:75px;
+}
+.pasttextmovebottom2top2{
+  position: relative;
+  right: -290px;
+  font-size: 1.5rem;
+  animation: pasttextmovebottom2top2 2s backwards;
+  top:145px;
+}
+.pastContentmovebottom2top2{
+  animation: pastContentmovebottom2top2 2s backwards;
+}
+.svg1moveright2left1{
+   animation: svg1moveright2left1 2s backwards;
+   top:-64px;
+}
+.ftextmoveright2left1{
+  position: relative;
+  top:264px;
+  font-size: 1.5rem;
+   animation: ftextmoveright2left1 2s backwards;
+   left:470px;
+}
+.futurecontentmoveright2left1{
+  position: absolute;
+  top:215px;
+  font-size: 1rem;
+  text-align: left;
+   animation: futurecontentmoveright2left1 2s backwards;
+  left:704px;
+}
+.svg1movebottom2top1{
+   animation: svg1movebottom2top1 2s backwards;
+   left:180px;
+}
+.ftextmovebottom2top1{
+  position: relative;
+  font-size: 1.5rem;
+  animation: ftextmovebottom2top1 2s backwards;
+  top:85px;
+}
+@keyframes ftextmovebottom2top1 {
+  from {top: 264px;}
+  to {top: 85px;}
+}
+@keyframes svg1movebottom2top1 {
+  from {left: 0px;}
+  to {left: 180px;}
+}
+@keyframes futurecontentmoveright2left1 {
+  from {left: 840px;}
+  to {left: 704px;}
+}
+@keyframes ftextmoveright2left1 {
+  from {left: 606px;}
+  to {left: 470px;}
+}
+@keyframes svg1moveright2left1 {
+  from {top: 70px;}
+  to {top: -64px;}
+}
+@keyframes pastContentmovebottom2top2 {
+  from {top: 315px;}
+  to {top: 185px;}
+}
+@keyframes pasttextmovebottom2top2 {
+  from {top: 194px;}
+  to {top: 55px;}
+}
+@keyframes svg2movebottom2top2 {
+  from {left: 75px;}
+  to {left: 200px;}
+}
+@keyframes pastContentmovebottom2top1 {
+  from {top: 515px;}
+  to {top: 315px;}
+}
+@keyframes pasttextmovebottom2top1 {
+  from {top: 250px;}
+  to {top: 194px;}
+}
+@keyframes svg2movebottom2top1 {
+  from {left: -20px;}
+  to {left: 75px;}
+}
+@keyframes movetop2bottom1 {
+  from {top: 200px;}
+  to {top: 295px;}
+}
+@keyframes movetop2bottom2 {
+  from {top: 295px;}
+  to {top: 385px;}
+}
+@keyframes svgmoveto60de {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+  /*50% {transform: rotate(-60deg);}*/
+}
+@keyframes svgmoveto30de {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+  /*50% {transform: rotate(-60deg);}*/
+}
+@keyframes moveto60de {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+  /*50% {transform: rotate(-60deg);}*/
+}
+@keyframes contentLeft2Right1 {
+  from {left: 265px;}
+  to {left: 450px;}
+}
+@keyframes textLeft2Right1 {
+  from {right: -290px;}
+  to {right: -490px;}
+}
+@keyframes moveleft2right2 {
+  from {top: -152px;}
+  to {top: 50px;}
+}
+@keyframes bottom2top2 {
+  from {top: 225px;}
+  to {top: 140px;}
+}
+@keyframes bottom2top1 {
+  from {top: 263px;}
+  to {top: 225px;}
+}
+@keyframes moveleft2right1 {
+  from {top: 0px;}
+  to {top: 72px;}
+}
+@keyframes moveright2left2 {
+  from {top: -82px;}
+  to {top: -152px;}
+}
+@keyframes moveright2left1 {
+  from {top: 0px;}
+  to {top: -82px;}
+}
+@keyframes bottom2top {
+  from {top: 200px;}
+  to {top: 100px;}
+}
+@keyframes right2left {
+  from {left: 100px;}
+  to {left: -160px;}
+  }
+@keyframes rotate90de {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+  /*50% {transform: rotate(-60deg);}*/
+}
+/*23dec2021*/
 .hide {
   /*margin: auto;
   border: 1px solid black;
@@ -289,9 +573,9 @@ h2.center-right {
   height: 100px;
   background-color: coral;
   color: white;*/
-  animation: moveto60de 2s forwards;
+  animation: moveto90de 2s forwards;
 }
-@keyframes moveto60de {
+@keyframes moveto90de {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -342,17 +626,7 @@ h2.center-right {
     text-align: right;
 	/*animation: moveto30de 2s forwards;*/
 }
-@keyframes moveto30de {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(-30deg);
-	}
-	
-	
-  /*50% {transform: rotate(-60deg);}*/
-}
+
 @keyframes moveto150de {
 	0% {
 		transform: rotate(0deg);
@@ -380,9 +654,14 @@ h2.center-right {
 
 	
   }*/
-  .tab {
+  /*.tab {
     overflow: hidden;
     position: absolute;
+    top: 200px;
+}*/
+ .tab {
+    overflow: hidden;
+    /*position: absolute;*/
     top: 200px;
 }
   .aligna {
@@ -391,7 +670,7 @@ h2.center-right {
 .tabcontent {
     /*padding-top: 30px;*/
     position: relative;
-    top:250px;
+    top:150px;
 }
   /* Style the buttons inside the tab */
   .tab button {
@@ -552,8 +831,8 @@ padding: 0.375rem 2.75rem;
 }
 .futuretab{
 	position: relative;
-	/*left: 50%;*/
-	top: 250px;
+	left: -44px;
+	top: 130px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -5,6 +5,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+/*.quotes {display: none;}*/
 /* start slide_001 */
 .slide_svg_001 {
 	
@@ -228,77 +229,174 @@ img {
 /* slider start 007*/
 .slide_07 {
     padding: 80px 0 0;
+    display: flex;
+    justify-content: center;
 }
 .slide_007svg1 {
 	float: left;
 }
 .slide_007svg2 {
-	float: left;
 }
 .slide_heading_007 {
-	float: left;
 }
 .slide_007svg1 img {
 	 width: 200px;
 	 transform: rotate(30deg);
+	 margin: 0 0 0 20px;
 }
 .slide_007svg2 img {
 	 width: 200px;
 	 transform: rotate(30deg);
-}
-/*
-.slide_heading_007 {
-    margin: 240px 0 0;
-    position: relative;
-    bottom: 10px;
-    left: 20px;
-}
-.slide_07 {
-    padding: 80px 0 0;
-}
-.slide_svg_007 {
-    position: relative;
-}
-.slide_007svg1 {
-    position: absolute;
-    width: 100%;
-    bottom: -60px;
-}
-.slide_007svg1 img {
-    width: 200px;
-    transform: rotate(30deg);
-    right: 0;
-    text-align: center;
-    margin: -650px 0 0 -350px;
+	 margin: 0 0 0 50px;
 }
 .slide_heading_007 h2 {
 	font-family:arial;
-    font-size: 53px;
-    font-weight: 700;
-    color: #6f6f6f;
-    margin: 40px 0 0;
-}
-.slide_007svg1 {
-    position: absolute;
-    width: 100%;
-    bottom: -60px;
-    right: 0px;
-}
-.slide_007svg2 img {
-    width: 200px;
-    margin: -370px 0 0 540px;
-    transform: rotate(30deg);
-}
-.slide_svg_007 {
-    position: relative;
-    padding: 0 0 10px;
-}
-
-.slide_heading_007 h2 span {
-    margin: 0;
-    position: relative;
-    top: 35px;
-    left: 10px;
+	font-size: 53px;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin: 140px 0 0;
 }
 /* slider end 007*/
-
+/* slider start 008*/
+.slide_08 {
+    padding: 80px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.slide_008svg1 {
+	float: left;
+}
+.slide_008svg2 {
+}
+.slide_heading_008 {
+}
+.slide_008svg1 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 20px;
+}
+.slide_008svg2 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 50px;
+}
+.slide_heading_008 h2 {
+	font-family:arial;
+	font-size: 53px;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin: 40px 0 0;
+}
+/* slider end 008*/
+/* slider start 009*/
+.slide_09 {
+    padding: 80px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.slide_009svg1 {
+	float: left;
+}
+.slide_009svg2 {
+}
+.slide_heading_009 {
+}
+.slide_009svg1 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 20px;
+}
+.slide_009svg2 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 50px;
+}
+.slide_heading_009 h2 {
+	font-family:arial;
+	font-size: 53px;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin: 40px 0 0;
+}
+.slide_009_1 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+    color: #707070;
+}
+.slide_009_2 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    bottom: 150px;
+    right: 0;
+    color: #707070;
+}
+/* slider end 009*/
+/* slider start 0010*/
+.slide_010 {
+    padding: 80px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.slide_010svg1 {
+	float: left;
+}
+.slide_010svg2 {
+}
+.slide_heading_010 {
+}
+.slide_010svg1 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 20px;
+}
+.slide_010svg2 img {
+	 width: 200px;
+	 transform: rotate(30deg);
+	 margin: 0 0 0 50px;
+}
+.slide_heading_010 h2 {
+	font-family:arial;
+	font-size: 53px;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin: 100px 0 0;
+}
+.slide_010_1 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    bottom: 130px;
+    right: 20px;
+    color: #707070;
+}
+.slide_010_2 {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    bottom: 130px;
+    right: 0;
+    color: #707070;
+}
+.slide_past_010 {
+    position: relative;
+    right: 230px;
+    top: 100px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.slide_future_010 {
+    position: relative;
+    left: 230px;
+    top: 100px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+/* slider end 009*/

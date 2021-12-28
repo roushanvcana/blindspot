@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
 	transform:  rotate(90deg);
 }
-.text_, .text_20 {
+.text_, .text_20 h2 {
     position: relative;
     top: 140px;
     color: #595959 !important;

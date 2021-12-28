@@ -1192,7 +1192,14 @@ h2.top-center-right_9{
     from {right: -290px;}
     to {right: -582px;}
   }
-
+  .futurecontentmoveright2left1 {
+    top: 505px;
+    left: 862px;
+}
+.ftextmoveright2left1 {
+  top: 530px;
+  left: 550px;
+}
   }
   @keyframes bottom2top1 {
     to {top: 505px;}

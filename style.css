@@ -3,8 +3,7 @@ body {
 	color: #595959;
 	background-color: #0E1519;
 }
-@media (max-width:1920px) {
-	#Path_2 {
+#Path_2 {
 	fill: transparent;
 	stroke: rgba(89,89,89,1);
 	stroke-width: 5px;
@@ -180,7 +179,7 @@ body {
 
 h2.top-center-right_9{
     position: relative;
-    top: 244px;
+    top: 370px;
     right: -378px;
     font-size: 1.5rem;
 }
@@ -361,8 +360,9 @@ h2.center-right {
 .wholetextbottom2top2{
   animation: bottom2top2 2s forwards;
 }
-.pasttextmoveleft2right{
-  animation: textLeft2Right1 2s forwards;
+.pasttextmoveleft2right {
+    animation: textLeft2Right1 2s forwards;
+    left: 580px !important;
 }
 .pastContentmoveleft2right{
   position: absolute;
@@ -378,50 +378,53 @@ h2.center-right {
  /* animation: svgmoveto60de 0s forwards;*/
  transform: rotate(-60deg);
 }
-.pastContentmovetop2bottom{
-  position: absolute;
-  font-size: 1rem;
-  left:670px;
-  text-align: right;
-  animation: movetop2bottom1 2s forwards;
+.pastContentmovetop2bottom {
+    position: absolute;
+    font-size: 1rem;
+    left: 720px;
+    text-align: right;
+    animation: movetop2bottom1 2s forwards;
+    top: 400px !important;
 }
-.pastContentmovetop2bottom1{
-  position: absolute;
-  /* top: 500px; */
-  font-size: 1rem;
-  left:750px;
-  text-align: right;
-  animation: movetop2bottom2 2s forwards;
+.pastContentmovetop2bottom1 {
+    position: absolute;
+    top: 500px !important;
+    font-size: 1rem;
+    left: 710px;
+    text-align: right;
+    animation: movetop2bottom2 2s forwards;
 }
 .svg2movebottom2top1{
   top:-100px;
   animation: svg2movebottom2top1 2s backwards;
   left:75px;
 }
-.pasttextmovebottom2top1{
-  position: relative;
-  right: -290px;
-  font-size: 1.5rem;
-  animation: pasttextmovebottom2top1 2s backwards;
-  top:145px;
+.pasttextmovebottom2top1 {
+    position: relative;
+    left: 566px !important;
+    font-size: 1.5rem;
+    animation: pasttextmovebottom2top1 2s backwards;
+    top: 145px;
 }
-.pastContentmovebottom2top1{
-  animation: pastContentmovebottom2top1 2s backwards;
+.pastContentmovebottom2top1 {
+    animation: pastContentmovebottom2top1 2s backwards;
+    top: 440px !important;
 }
 .svg2movebottom2top2{
   top:-100px;
   animation: svg2movebottom2top2 2s backwards;
   left:75px;
 }
-.pasttextmovebottom2top2{
-  position: relative;
-  right: -290px;
-  font-size: 1.5rem;
-  animation: pasttextmovebottom2top2 2s backwards;
-  top:145px;
+.pasttextmovebottom2top2 {
+    position: relative;
+    left: 566px !important;
+    font-size: 1.5rem;
+    animation: pasttextmovebottom2top2 2s backwards;
+    top: 145px;
 }
-.pastContentmovebottom2top2{
-  animation: pastContentmovebottom2top2 2s backwards;
+.pastContentmovebottom2top2 {
+    animation: pastContentmovebottom2top2 2s backwards;
+    top: 300px !important;
 }
 .svg1moveright2left1{
    animation: svg1moveright2left1 2s backwards;
@@ -429,18 +432,18 @@ h2.center-right {
 }
 .ftextmoveright2left1{
   position: relative;
-  top:360px;
+  top:380px;
   font-size: 1.5rem;
    animation: ftextmoveright2left1 2s backwards;
    left:563px;
 }
 .futurecontentmoveright2left1 {
-  position: absolute;
-  top: 315px;
-  font-size: 1rem;
-  text-align: left;
-  animation: futurecontentmoveright2left1 2s backwards;
-  left: 1022px;
+    position: absolute;
+    top: 335px;
+    font-size: 1rem;
+    text-align: left;
+    animation: futurecontentmoveright2left1 2s backwards;
+    left: 992px;
 }
 .svg1movebottom2top1{
    animation: svg1movebottom2top1 2s backwards;
@@ -685,7 +688,7 @@ h2.center-right {
 .tabcontent {
     /*padding-top: 30px;*/
     position: relative;
-    top:240px;
+    top:0;
 }
   /* Style the buttons inside the tab */
   .tab button {
@@ -713,6 +716,10 @@ h2.center-right {
   } */
   
   /* Style the tab content */
+.pasttabcontent {
+    top: 250px;
+    position: relative;
+}
   .tabcontent {
 	display: none;
 	padding: 25px 0px;
@@ -1060,9 +1067,13 @@ padding: 0.375rem 2.75rem;
 .slider-1-gap {
   margin-left: 20px;
 }
-}
 /* Slide-1 end-no-animation */
-@media (max-width:1903px ) {
+@media (max-width:1905px ) {
+	.svg2moveright2left1 {
+    left: -21px;
+    /* animation: moveright2left1 0s forwards; */
+    top: -82px;
+}
  .pastContentmoveleft2right {
     position: absolute;
     top: 490px;
@@ -1405,8 +1416,11 @@ h2.top-center-right_9{
     top: 118px;
 }
 }
+@media (max-width:768px ) {
 
-@media (max-width: 1349px) {
+
+}
+/*@media (max-width: 1349px) {
   
 }
 @media (max-width:992px ) {
@@ -1421,3 +1435,4 @@ h2.top-center-right_9{
 @media (max-width:576px ) {
 
 }
+*/

@@ -380,8 +380,8 @@ h2.center-right {
   animation: svgmoveto30de 0s forwards;
 }
 .svgrotate60svg{
- /* animation: svgmoveto60de 0s forwards;*/
- transform: rotate(-60deg);
+ animation: svgmoveto60de 0s forwards;
+ 
 }
 .pastContentmovetop2bottom{
   position: absolute;
@@ -398,11 +398,11 @@ h2.center-right {
   text-align: right;
   animation: movetop2bottom2 2s forwards;
 }
-.svg2movebottom2top1{
+/*.svg2movebottom2top1{
   top:-100px;
   animation: svg2movebottom2top1 2s backwards;
   left:75px;
-}
+}*/
 .pasttextmovebottom2top1{
   position: relative;
   right: -290px;
@@ -413,11 +413,11 @@ h2.center-right {
 .pastContentmovebottom2top1{
   animation: pastContentmovebottom2top1 2s backwards;
 }
-.svg2movebottom2top2{
+/*.svg2movebottom2top2{
   top:-100px;
   animation: svg2movebottom2top2 2s backwards;
   left:75px;
-}
+}*/
 .pasttextmovebottom2top2{
   position: relative;
   right: -290px;
@@ -428,35 +428,32 @@ h2.center-right {
 .pastContentmovebottom2top2{
   animation: pastContentmovebottom2top2 2s backwards;
 }
-.svg1moveright2left1{
-   animation: svg1moveright2left1 2s backwards;
-   top:-64px;
-}
-.ftextmoveright2left1{
+
+/*.ftextmoveright2left1{
   position: relative;
   top:360px;
   font-size: 1.5rem;
    animation: ftextmoveright2left1 2s backwards;
    left:563px;
-}
-.futurecontentmoveright2left1 {
+}*/
+/*.futurecontentmoveright2left1 {
   position: absolute;
   top: 315px;
   font-size: 1rem;
   text-align: left;
   animation: futurecontentmoveright2left1 2s backwards;
   left: 1022px;
-}
-.svg1movebottom2top1{
+}*/
+/*.svg1movebottom2top1{
    animation: svg1movebottom2top1 2s backwards;
    left:180px;
-}
-.ftextmovebottom2top1{
+}*/
+/*.ftextmovebottom2top1{
   position: relative;
   font-size: 1.5rem;
   animation: ftextmovebottom2top1 2s backwards;
   top:188px;
-}
+}*/
 @keyframes ftextmovebottom2top1 {
   from {top: 264px;}
   to {top: 85px;}
@@ -1122,11 +1119,11 @@ h2.top-center-right_9{
 }
 .pastContentmovetop2bottom1 {
     position: absolute;
-    top: 420px !important;
+    top: 385px !important;
     font-size: 1rem;
-    left: 580px !important;
+    left: 540px !important;
     text-align: right;
-    animation: movetop2bottom1 2s forwards;
+ /*   animation: movetop2bottom1 2s forwards;*/
 }
 .pasttextmovebottom2top1 {
     position: relative;
@@ -1135,14 +1132,14 @@ h2.top-center-right_9{
     animation: pasttextmovebottom2top1 2s backwards;
     top: 225px !important;
 }
-.pastContentmovetop2bottom1 {
+/*.pastContentmovetop2bottom1 {
     position: absolute;
     top: 450px !important;
     font-size: 1rem;
     left: 580px !important;
     text-align: right;
     animation: movetop2bottom1 2s forwards;
-}
+}*/
 .pastContentmovebottom2top1{
   animation: pastContentmovebottom2top1 2s backwards;
   top:350px !important;
@@ -1166,26 +1163,20 @@ h2.top-center-right_9{
 .pasttabcontent {
     top: 230px;
 }
-.ftextmoveright2left1 {
-    position: relative;
-    top: 300px;
-    font-size: 1.5rem;
-    animation: ftextmoveright2left1 2s backwards;
-    left: 563px;
-}
 .futurecontentmoveright2left1 {
     position: absolute;
-    top: 275px;
+    top: 260px;
     font-size: 1rem;
     text-align: left;
-    animation: futurecontentmoveright2left1 2s backwards;
-    left: 812px;
+    /*animation: futurecontentmoveright2left1 2s backwards;*/
+    left: 720px;
 }
 .ftextmovebottom2top1 {
     position: relative;
     font-size: 1.5rem;
-    animation: ftextmovebottom2top1 2s backwards;
-    top: 118px;
+    /*animation: ftextmovebottom2top1 2s backwards;*/
+    top: 80px;
+    left: 475px;
 }
 .pasttextmoveleft2right{
     position: relative;
@@ -1201,6 +1192,13 @@ h2.top-center-right_9{
     /*animation: textLeft2Right1 2s forwards;*/
     right:-525px;
   }
+.pasttextmoveleft2right-2{
+    position: relative;
+    top: 250px;
+    font-size: 1.5rem;
+    /*animation: textLeft2Right1 2s forwards;*/
+    right:-560px;
+  }
   .pastContentmoveleft2right {
     position: absolute;
     top: 490px;
@@ -1209,6 +1207,53 @@ h2.top-center-right_9{
    /* animation: contentLeft2Right1 2s forwards;*/
     left: 525px;
   }
+.svg2movebottom2top1{
+  top:-100px;
+ /* animation: svg2movebottom2top1 2s backwards;*/
+  left:75px;
+}
+.pasttextmovebottom2top1 {
+    position: relative;
+    right: -555px;
+    font-size: 1.5rem;
+    /*animation: pasttextmovebottom2top1 2s backwards;*/
+    top: 185px !important;
+}
+.pastContentmovebottom2top1{
+  /*animation: pastContentmovebottom2top1 2s backwards;*/
+  top:310px !important;
+}
+.svg2movebottom2top2{
+  top:-100px;
+  /*animation: svg2movebottom2top2 2s backwards;*/
+  left:75px;
+}
+.pasttextmovebottom2top2 {
+    position: relative;
+    left: 555px;
+    font-size: 1.5rem;
+   /* animation: pasttextmovebottom2top2 2s backwards;*/
+    top: 60px !important;
+}
+.pastContentmovebottom2top2 {
+   /* animation: pastContentmovebottom2top2 2s backwards;*/
+    top: 183px !important;
+}
+.svg1moveright2left1{
+   /*animation: svg1moveright2left1 2s backwards;*/
+   top:-64px;
+}
+.ftextmoveright2left1 {
+    position: relative;
+    top: 265px;
+    font-size: 1.5rem;
+    /*animation: ftextmoveright2left1 2s backwards;*/
+    left: 475px;
+}
+.svg1movebottom2top1{
+   /*animation: svg1movebottom2top1 2s backwards;*/
+   left:180px;
+}
 }
 @media (max-width:576px ) {
   .futuretab_content {
@@ -1287,29 +1332,29 @@ h2.top-center-right_9{
     animation: pasttextmovebottom2top1 2s backwards;
     top: 225px !important;
 }
-.pastContentmovetop2bottom1 {
+/*.pastContentmovetop2bottom1 {
     position: absolute;
     top: 450px !important;
     font-size: 1rem;
     left: 580px !important;
     text-align: right;
     animation: movetop2bottom1 2s forwards;
-}
+}*/
 .pastContentmovebottom2top1{
   animation: pastContentmovebottom2top1 2s backwards;
   top:350px !important;
 }
-.pasttextmovebottom2top2 {
+/*.pasttextmovebottom2top2 {
     position: relative;
     right: -290px;
     font-size: 1.5rem;
     animation: pasttextmovebottom2top2 2s backwards;
     top: 95px !important;
-}
-.pastContentmovebottom2top2 {
+}*/
+/*.pastContentmovebottom2top2 {
     animation: pastContentmovebottom2top2 2s backwards;
     top: 230px !important;
-}
+}*/
 .tabcontent {
     /* padding-top: 30px; */
     position: relative;
@@ -1318,13 +1363,13 @@ h2.top-center-right_9{
 .pasttabcontent {
     top: 230px;
 }
-.ftextmoveright2left1 {
+/*.ftextmoveright2left1 {
     position: relative;
     top: 300px;
     font-size: 1.5rem;
     animation: ftextmoveright2left1 2s backwards;
     left: 563px;
-}
+}*/
 .futurecontentmoveright2left1 {
     position: absolute;
     top: 275px;
@@ -1336,7 +1381,7 @@ h2.top-center-right_9{
 .ftextmovebottom2top1 {
     position: relative;
     font-size: 1.5rem;
-    animation: ftextmovebottom2top1 2s backwards;
+    /*animation: ftextmovebottom2top1 2s backwards;*/
     top: 118px;
 }
 }
@@ -1390,44 +1435,44 @@ h2.top-center-right_9{
     animation: movetop2bottom1 2s forwards;
     top: 330px !important;
 }
-.pastContentmovetop2bottom1 {
+/*.pastContentmovetop2bottom1 {
     position: absolute;
     top: 420px !important;
     font-size: 1rem;
     left: 580px !important;
     text-align: right;
     animation: movetop2bottom1 2s forwards;
-}
-.pasttextmovebottom2top1 {
+}*/
+/*.pasttextmovebottom2top1 {
     position: relative;
     right: -290px;
     font-size: 1.5rem;
     animation: pasttextmovebottom2top1 2s backwards;
     top: 225px !important;
-}
-.pastContentmovetop2bottom1 {
+}*/
+/*.pastContentmovetop2bottom1 {
     position: absolute;
     top: 450px !important;
     font-size: 1rem;
     left: 580px !important;
     text-align: right;
     animation: movetop2bottom1 2s forwards;
-}
-.pastContentmovebottom2top1{
+}*/
+/*.pastContentmovebottom2top1{
   animation: pastContentmovebottom2top1 2s backwards;
   top:350px !important;
-}
-.pasttextmovebottom2top2 {
+}*/
+/*.pasttextmovebottom2top2 {
     position: relative;
     right: -290px;
     font-size: 1.5rem;
     animation: pasttextmovebottom2top2 2s backwards;
     top: 95px !important;
-}
-.pastContentmovebottom2top2 {
+}*/
+/*.pastContentmovebottom2top2 {
     animation: pastContentmovebottom2top2 2s backwards;
     top: 230px !important;
-}
+}*/
 .tabcontent {
     /* padding-top: 30px; */
     position: relative;
@@ -1436,27 +1481,27 @@ h2.top-center-right_9{
 .pasttabcontent {
     top: 230px;
 }
-.ftextmoveright2left1 {
+/*.ftextmoveright2left1 {
     position: relative;
     top: 300px;
     font-size: 1.5rem;
     animation: ftextmoveright2left1 2s backwards;
     left: 563px;
-}
-.futurecontentmoveright2left1 {
+}*/
+/*.futurecontentmoveright2left1 {
     position: absolute;
     top: 275px;
     font-size: 1rem;
     text-align: left;
     animation: futurecontentmoveright2left1 2s backwards;
     left: 812px;
-}
-.ftextmovebottom2top1 {
+}*/
+/*.ftextmovebottom2top1 {
     position: relative;
     font-size: 1.5rem;
     animation: ftextmovebottom2top1 2s backwards;
     top: 118px;
-}
+}*/
 /*.pasttextmoveleft2right{
   position: relative;
   top: 250px;

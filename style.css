@@ -1243,6 +1243,65 @@ h2.top-center-right_9 {
   top: 520px;
 }
 }
+@media (max-width:1600px) {
+  .pasttextmoveleft2right {
+    animation: textLeft2Right12 2s forwards;
+    top: 290px !important;
+}
+  @keyframes textLeft2Right12 {
+    from {right: -290px;}
+    to {right: -582px;}
+  }
+  .futurecontentmoveright2left1 {
+    top: 505px;
+    left: 862px;
+}
+.ftextmoveright2left1 {
+  top: 530px;
+  left: 550px;
+}
+  }
+  @keyframes bottom2top1 {
+    to {top: 505px;}
+  }
+  @keyframes bottom2top2 {
+	from {top: 530px;}
+    to {top: 354px;}
+  }
+  .pastContentmovetop2bottom {
+    top: 540px !important;
+}
+  .bottom2top {
+    top: 153px;
+}
+.item.pastContentmoveleft2right.pastContentmovetop2bottom.pastContentmovetop2bottom1 {
+  top: 690px !important;
+}
+h2.top-center-right {
+  top: 490px !important;
+}
+h2.top-center-left {
+  top: 527px !important;
+  left: 687px;
+}
+h2.center-right {
+  top: 488px;
+  left: 997px;
+}
+h2.center-left {
+  top: 490px;
+  left: 325px;
+}
+/* h2.pastContentmoveleft2right {
+  left: 495px;
+} */
+.pasttextmoveleft2right {
+  top: 520px !important;
+}
+h2.top-center-right_9 {
+  top: 520px;
+}
+}
 @media (max-width:1440px ) {
  .pastContentmoveleft2right {
     position: absolute;

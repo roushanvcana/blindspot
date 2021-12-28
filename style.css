@@ -57,7 +57,10 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   }
-
+  .rotate60svg .Path_2 {
+    width: 162.957px;
+    height: 184.565px;
+}
   .center-3 {
 	top: 25%;
 	left: 52%;
@@ -1075,7 +1078,7 @@ padding: 0.375rem 2.75rem;
 @media (min-width:992px ) {
 
 }
-@media (min-width:1200px ) {
+@media (max-width:1200px ) {
     .pastContentmoveleft2right {
     position: absolute;
     top: 490px;

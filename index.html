@@ -301,7 +301,6 @@
 			}
 			else {
 				var isfirst = document.getElementsByClassName('center-2');
-				
 				//condition class 
 				var issecond = document.getElementsByClassName('rotate60svg');
 				var isthird = document.getElementsByClassName('rotate90svg');
@@ -383,14 +382,19 @@
 				  $("#svg2").removeClass("svg2moveright2left1")
 				  $("#svg2").removeClass("svg2moveright2left2")
 				  $("#svg2").addClass("svg2moveleft2right1")
+				  $("#top-center-right-past").removeClass("top-center-right_9")
 				  $("#top-center-right-past").addClass("pasttextmoveleft2right")
-				  //$("#pastContent").removeClass("center-left")
+				  $("#pastContent").removeClass("center-left")
+				  $("#pastContent").addClass("center-left-1")
 				  $("#pastContent").addClass("pastContentmoveleft2right")
 				  x=parseInt(x)+1;
 				}
 				else if (x==12 && p==1) {
 					$("#svg2").addClass("svgrotate30svg")
-					$("#pastContent").removeClass("center-left")
+					$("#top-center-right-past").removeClass("pasttextmoveleft2right")
+				    $("#top-center-right-past").addClass("pasttextmoveleft2right-1")
+					$("#pastContent").removeClass("center-left-1")
+					$("#pastContent").addClass("center-left-2")
 					$("#pastContent").addClass("pastContentmovetop2bottom")
 					 document.getElementById('top-center-right-past').style.setProperty("left", "556x");
 					x=parseInt(x)+1;

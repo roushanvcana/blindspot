@@ -297,7 +297,157 @@
 		$(window).bind('mousewheel', function(event) {
 			console.log(event.originalEvent)
 			if (event.originalEvent.wheelDelta >= 0) {
-			    console.log('Scroll up');
+				console.log(x)
+			    var isfirst = document.getElementsByClassName('center-2');
+				//condition class 
+				var issecond = document.getElementsByClassName('rotate60svg');
+				var isthird = document.getElementsByClassName('rotate90svg');
+				var isfourth = document.getElementsByClassName('bottom2top');
+				var isfifth = document.getElementsByClassName('svg2moveright2left1');
+				var issixth = document.getElementsByClassName('svg2moveright2left2');
+				var isseventh = document.getElementsByClassName('wholetextbottom2top2');
+				console.log(isfirst.length)
+				if (isfirst.length >= 1 && x==2) {
+				    $("#linear").removeClass("center-2")
+				    $("#textDown_1").removeClass("gap")
+				    x=parseInt(x)-1;
+				}
+				else if (issecond.length >= 1 && x==3) {
+				    $("#slide1-2").removeClass("rotate60svg")
+				    $("#textDown_1").addClass("gap")
+				    $("#textDown_1").removeClass("vright2left")
+				    x=parseInt(x)-1;
+				}
+				else if (isthird.length >= 1 && x==4) {
+				    $("#slide1-2").removeClass("rotate90svg")
+				    $("#textDown_1").removeClass("gap")
+				    $("#svg2").removeClass("svg2")
+				    //$("#textDown_1").removeClass("vright2left")
+				    x=parseInt(x)-1;
+				}
+				else if (isfourth.length >= 1 && x==5) {
+				    $("#wholetext").removeClass("bottom2top")
+				    x=parseInt(x)-1;
+				}
+				else if (isfifth.length >= 1 && x==6) {
+				    $("#svg2").removeClass("svg2moveright2left1")
+				    x=parseInt(x)-1;
+				}
+				else if (issixth.length >= 1 && x==7) {
+				    $("#svg2").removeClass("svg2moveright2left2")
+				    $("#svg1").removeClass("svg1moveleft2right1")
+				    $("#wholetextdiv").removeClass("wholetextbottom2top1")
+				    x=parseInt(x)-1;
+				}
+				else if (isseventh.length >= 1 && x==8) {
+				    $("#wholetextdiv").removeClass("wholetextbottom2top1")
+				    $("#wholetextdiv").removeClass("wholetextbottom2top2")
+				    $("#futuretextdiv").hide()
+				    $("#pasttextdiv").hide()
+				    x=parseInt(x)-1;
+				}
+				else if (x==9) {
+				    $("#futureContent").hide()
+				    $("#pastContent").hide()
+				    x=parseInt(x)-1;
+				}
+				else if (x==10 && p==1) {
+				    $("#svg1").show()
+				    $("#futuretextdiv").show()
+				    $("#top-center-right-past").addClass("top-center-right")
+				    $("#top-center-right-past").removeClass("top-center-right_9")
+				    x=parseInt(x)-1;
+				    p=0;
+				}
+				else if (x==11 && p==1) {
+				    $("#svg1").show()
+				    $("#wholetextdiv").show()
+				    x=parseInt(x)-1;
+				}
+				else if (x==12 && p==1) {
+				  $("#svg2").addClass("svg2moveright2left1")
+				  $("#svg2").addClass("svg2moveright2left2")
+				  $("#svg2").removeClass("svg2moveleft2right1")
+				  $("#top-center-right-past").addClass("top-center-right_9")
+				  $("#top-center-right-past").removeClass("pasttextmoveleft2right")
+				  $("#pastContent").addClass("center-left")
+				  $("#pastContent").removeClass("center-left-1")
+				  $("#pastContent").removeClass("pastContentmoveleft2right")
+				  x=parseInt(x)-1;
+				}
+				else if (x==13 && p==1) {
+					$("#svg2").removeClass("svgrotate30svg")
+					$("#top-center-right-past").addClass("pasttextmoveleft2right")
+				    $("#top-center-right-past").removeClass("pasttextmoveleft2right-1")
+					$("#pastContent").addClass("center-left-1")
+					$("#pastContent").removeClass("center-left-2")
+					$("#pastContent").removeClass("pastContentmovetop2bottom")
+					x=parseInt(x)-1;
+				}
+				else if (x==14 && p==1) {
+					$("#svg2").removeClass("slider-1_")
+					$("#svg2").removeClass("svgrotate60svg")
+					$("#top-center-right-past").addClass("pasttextmoveleft2right-1")
+				    $("#top-center-right-past").removeClass("pasttextmoveleft2right-2")
+					$("#pastContent").addClass("pastContentmovetop2bottom")
+					$("#pastContent").removeClass("pastContentmovetop2bottom1")
+					$('#pastContent').html('History <br>of Boston <br>Break through <br>Innovations');
+					x=parseInt(x)-1;
+				}
+				else if (x==15 && p==1) {
+					$("#linear").removeClass("svg2movebottom2top1")
+					$("#slider-1_").removeClass("svg2movebottom2top1")
+					$("#top-center-right-past").addClass("pasttextmoveleft2right-2")
+					$("#top-center-right-past").removeClass("pasttextmovebottom2top1")
+					$("#pastContent").addClass("pastContentmoveleft2right")
+					$("#pastContent").removeClass("pastContentmovebottom2top1")
+					x=parseInt(x)-1;
+				}
+				else if (x==16 && p==1) {
+					$("#linear").addClass("svg2movebottom2top1")
+					$("#linear").removeClass("svg2movebottom2top2")
+					$("#top-center-right-past").removeClass("pasttextmovebottom2top2")
+					$("#pastContent").removeClass("pastContentmovebottom2top2")
+					x=parseInt(x)-1;
+				}
+				else if (x==17 && p==1) {
+					$("#slide21").hide()
+					$("#back_button_future").hide()
+					x=parseInt(x)-1;
+				}
+
+
+				//future execution
+				if (x==10 && f==1) {
+				    $("#svg2").show()
+				    $("#pasttextdiv").show()
+				    x=parseInt(x)-1;
+				}
+				else if (x==11 && f==1) {
+				    $("#wholetextdiv").show()
+				    x=parseInt(x)-1;
+				}
+				else if (x==12 && f==1) {
+				  $("#svg1").removeClass("svg1moveright2left1")
+				  $("#futuretext").addClass("top-center-left")
+				  $("#futuretext").removeClass("ftextmoveright2left1")
+				  $("#futureContent").addClass("center-right")
+				  $("#futureContent").removeClass("futurecontentmoveright2left1")
+				   x=parseInt(x)-1;
+				}
+				else if (x==13 && f==1) {
+					$("#futureContent").show()
+					$("#svg1").removeClass("svg1movebottom2top1")
+					$("#futuretext").addClass("ftextmoveright2left1")
+					$("#futuretext").removeClass("ftextmovebottom2top1")
+					x=parseInt(x)-1;
+				}
+				else if (x==14 && f==1) {
+					$(".futuretab").hide()
+					$("#back_button_future").hide()
+					x=parseInt(x)-1;
+				}
+				
 			}
 			else {
 				var isfirst = document.getElementsByClassName('center-2');
@@ -396,7 +546,7 @@
 					$("#pastContent").removeClass("center-left-1")
 					$("#pastContent").addClass("center-left-2")
 					$("#pastContent").addClass("pastContentmovetop2bottom")
-					 document.getElementById('top-center-right-past').style.setProperty("left", "556x");
+					//document.getElementById('top-center-right-past').style.setProperty("left", "556x");
 					x=parseInt(x)+1;
 				}
 				else if (x==13 && p==1) {
@@ -404,11 +554,9 @@
 					$("#svg2").addClass("svgrotate60svg")
 					$("#top-center-right-past").removeClass("pasttextmoveleft2right-1")
 				    $("#top-center-right-past").addClass("pasttextmoveleft2right-2")
-					//$("#pastContent").removeClass("center-left")
 					$("#pastContent").removeClass("pastContentmovetop2bottom")
 					$("#pastContent").addClass("pastContentmovetop2bottom1")
 					$('#pastContent').find('br').remove();
-					//document.getElementById('top-center-right-past').style.setProperty("left", "600px");
 					x=parseInt(x)+1;
 				}
 				else if (x==14 && p==1) {
@@ -418,19 +566,12 @@
 					$("#top-center-right-past").addClass("pasttextmovebottom2top1")
 					$("#pastContent").removeClass("pastContentmoveleft2right")
 					$("#pastContent").addClass("pastContentmovebottom2top1")
-					
-					document.getElementById('top-center-right-past').style.setProperty("top", "304px");
-					//document.getElementById('pastContent').style.setProperty("top", "450px");
 					x=parseInt(x)+1;
 				}
 				else if (x==15 && p==1) {
 					$("#linear").addClass("svg2movebottom2top2")
 					$("#top-center-right-past").addClass("pasttextmovebottom2top2")
-					document.getElementById('linear').style.setProperty("left", "200px");
 					$("#pastContent").addClass("pastContentmovebottom2top2")
-					
-					// document.getElementById('top-center-right-past').style.setProperty("top", "165px");
-					// document.getElementById('pastContent').style.setProperty("top", "305px");
 					x=parseInt(x)+1;
 				}
 				else if (x==16 && p==1) {

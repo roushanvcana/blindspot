@@ -234,10 +234,10 @@
  <!-- slide 28 new end here --> 
 </div>
 <div class="tab futuretab" id="futuretab">
- <button class="tablinks" onclick="openCity(event, 'thesis')">Thesis</button>
- <button class="tablinks" onclick="openCity(event, 'partners')">Partners</button>
- <button class="tablinks" onclick="openCity(event, 'fellowship')">Fellowship</button>
- <button class="tablinks" onclick="openCity(event, 'talent')">Talent</button>
+ <button class="tablinks" id="thesis" onclick="openCity(event, 'thesis')">Thesis</button>
+ <button class="tablinks" id="partners" onclick="openCity(event, 'partners')">Partners</button>
+ <button class="tablinks" id="fellowship" onclick="openCity(event, 'fellowship')">Fellowship</button>
+ <button class="tablinks" id="talent" onclick="openCity(event, 'talent')">Talent</button>
 </div>
 <div class="futuretab_content">
  <div id="thesis" class="tabcontent pasttabcontent">
@@ -268,7 +268,7 @@
 		  }
 		  tablinks = document.getElementsByClassName("tablinks");
 		  for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].className = tablinks[i].className.replace(" active", "");
+			tablinks[i].className = tablinks[i].className.replace("active", "");
 		  }
 		  document.getElementById(cityName).style.display = "block";
 		  evt.currentTarget.className += " active";
@@ -576,6 +576,7 @@
 				}
 				else if (x==16 && p==1) {
 					$("#slide21").show()
+          openCity(event, '1800');
 					$("#back_button_future").show()
 					x=parseInt(x)+1;
 				}
@@ -611,6 +612,7 @@
 				else if (x==13 && f==1) {
 					$(".futuretab").show()
 					$("#back_button_future").show()
+          openCity(event, 'thesis')
 					x=parseInt(x)+1;
 				}
 				// else if (x==14 && f==1) {

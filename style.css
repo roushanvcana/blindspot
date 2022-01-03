@@ -39,7 +39,7 @@ body {
 
 .center {
 	top: 40%;
-	left: 50%;
+	left: 53%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
   }
@@ -66,7 +66,7 @@ body {
   }
 
   .center-4 {
-	top: 62.7%;
+	top: 78.7%;
 	left: 52%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -183,24 +183,24 @@ h2.top-center-right_9{
     right: -378px;
     font-size: 1.5rem;
 }
-h2.top-center-right {
+/*h2.top-center-right {
     position: relative;
     top: 244px;
     right: -378px;
     font-size: 1.5rem;
-}
+}*/
   /*h2.top-center-right {
     position: relative;
     top: 170px;
     right: -9px;
 	font-size: 1.5rem;
 }*/
-h2.top-center-left {
+/*h2.top-center-left {
   position: relative;
   top: 294px;
   left: 701px;
   font-size: 1.5rem;
-}
+}*/
 /*h2.top-center-left {
     position: relative;
     top: 170px;
@@ -342,11 +342,11 @@ h2.center-right {
   /*animation: moveright2left1 0s forwards;*/
   top:-82px;
 }
-.svg2moveleft2right1{
+/*.svg2moveleft2right1{
   left:-21px;
-  /*animation: moveleft2right2 2s forwards;*/
+  /*animation: moveleft2right2 2s forwards;*
   top:50px;
-}
+}*/
 .svg2moveright2left2{
   left:-21px;
  /* animation: moveright2left2 0s forwards;*/
@@ -848,8 +848,8 @@ padding: 0.375rem 2.75rem;
 }
 .futuretab{
 	position: relative;
-	left: -44px;
-	top: 250px;
+	left: -5px;
+	top: 160px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1066,13 +1066,13 @@ padding: 0.375rem 2.75rem;
   h2.top-center-right {
     position: relative;
     top: 215px;
-    right: -290px;
+    right: -330px;
     font-size: 1.5rem;
   }
   h2.top-center-left {
       position: relative;
       top: 255px;
-      left: 610px;
+      left: 650px;
       font-size: 1.5rem;
   }
   h2.center-left {
@@ -1085,7 +1085,7 @@ padding: 0.375rem 2.75rem;
   h2.center-right {
     position: absolute;
     top: 250px;
-    left: 860px;
+    left: 920px;
     font-size: 1rem;
     text-align: left;
   }
@@ -1106,7 +1106,7 @@ padding: 0.375rem 2.75rem;
   h2.top-center-right_9{
       position: relative;
       top: 250px;
-      right: -290px;
+      right: -330px;
       font-size: 1.5rem;
   }
   .pastContentmovetop2bottom {
@@ -1169,28 +1169,28 @@ padding: 0.375rem 2.75rem;
       font-size: 1rem;
       text-align: left;
       /*animation: futurecontentmoveright2left1 2s backwards;*/
-      left: 720px;
+      left: 770px;
   }
   .ftextmovebottom2top1 {
       position: relative;
       font-size: 1.5rem;
       /*animation: ftextmovebottom2top1 2s backwards;*/
       top: 80px;
-      left: 475px;
+      left: 515px;
   }
   .pasttextmoveleft2right{
       position: relative;
       top: 250px;
       font-size: 1.5rem;
       /*animation: textLeft2Right1 2s forwards;*/
-      right:-490px;
+      right:-500px;
     }
   .pasttextmoveleft2right-1{
       position: relative;
       top: 250px;
       font-size: 1.5rem;
       /*animation: textLeft2Right1 2s forwards;*/
-      right:-525px;
+      right:-530px;
     }
   .pasttextmoveleft2right-2{
       position: relative;
@@ -1248,11 +1248,16 @@ padding: 0.375rem 2.75rem;
       top: 265px;
       font-size: 1.5rem;
       /*animation: ftextmoveright2left1 2s backwards;*/
-      left: 475px;
+      left: 515px;
   }
   .svg1movebottom2top1{
      /*animation: svg1movebottom2top1 2s backwards;*/
      left:180px;
+  }
+  .svg2moveleft2right1{
+    left:-21px;
+    /*animation: moveleft2right2 2s forwards;*/
+    top:10px;
   }
 }
 /* 1900 to 2000 */
@@ -1608,18 +1613,18 @@ h2.top-center-right_9{
     left: 525px;
 }*/
 
-h2.top-center-right {
+/*h2.top-center-right {
   position: relative;
   top: 215px;
   right: -290px;
   font-size: 1.5rem;
-}
-h2.top-center-left {
+}*/
+/*h2.top-center-left {
     position: relative;
     top: 255px;
     left: 610px;
     font-size: 1.5rem;
-}
+}*/
 h2.center-left {
     position: absolute;
     top: 250px;
@@ -1627,19 +1632,19 @@ h2.center-left {
     font-size: 1rem;
     text-align: right;
 }
-h2.center-right {
+/*h2.center-right {
   position: absolute;
   top: 250px;
   left: 860px;
   font-size: 1rem;
   text-align: left;
-}
-h2.top-center-right_9{
+}*/
+/*h2.top-center-right_9{
     position: relative;
     top: 250px;
     right: -290px;
     font-size: 1.5rem;
-}
+}*/
 .pastContentmovetop2bottom {
     position: absolute;
     font-size: 1rem;

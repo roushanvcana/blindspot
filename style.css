@@ -1063,197 +1063,410 @@ padding: 0.375rem 2.75rem;
 }
 /* Slide-1 end-no-animation */
 @media only screen and (min-width: 1300px) and (max-width: 1400px)  {
-h2.top-center-right {
-  position: relative;
-  top: 215px;
-  right: -290px;
-  font-size: 1.5rem;
-}
-h2.top-center-left {
+  h2.top-center-right {
     position: relative;
-    top: 255px;
-    left: 610px;
-    font-size: 1.5rem;
-}
-h2.center-left {
-    position: absolute;
-    top: 250px;
-    left: 230px;
-    font-size: 1rem;
-    text-align: right;
-}
-h2.center-right {
-  position: absolute;
-  top: 250px;
-  left: 860px;
-  font-size: 1rem;
-  text-align: left;
-}
-h2.center-left-1 {
-    position: absolute;
-    top: 250px;
-    left: 435px;
-    font-size: 1rem;
-    text-align: right;
-}
-h2.center-left-2 {
-    position: absolute;
-    top: 250px;
-    left: 485px;
-    font-size: 1rem;
-    text-align: right;
-}
-h2.top-center-right_9{
-    position: relative;
-    top: 250px;
+    top: 215px;
     right: -290px;
     font-size: 1.5rem;
-}
-.pastContentmovetop2bottom {
+  }
+  h2.top-center-left {
+      position: relative;
+      top: 255px;
+      left: 610px;
+      font-size: 1.5rem;
+  }
+  h2.center-left {
+      position: absolute;
+      top: 250px;
+      left: 230px;
+      font-size: 1rem;
+      text-align: right;
+  }
+  h2.center-right {
     position: absolute;
-    font-size: 1rem;
-    left: 670px;
-    text-align: right;
-    animation: movetop2bottom1 2s forwards;
-    top: 330px !important;
-}
-.pastContentmovetop2bottom1 {
-    position: absolute;
-    top: 385px !important;
-    font-size: 1rem;
-    left: 540px !important;
-    text-align: right;
- /*   animation: movetop2bottom1 2s forwards;*/
-}
-.pasttextmovebottom2top1 {
-    position: relative;
-    right: -290px;
-    font-size: 1.5rem;
-    animation: pasttextmovebottom2top1 2s backwards;
-    top: 225px !important;
-}
-/*.pastContentmovetop2bottom1 {
-    position: absolute;
-    top: 450px !important;
-    font-size: 1rem;
-    left: 580px !important;
-    text-align: right;
-    animation: movetop2bottom1 2s forwards;
-}*/
-.pastContentmovebottom2top1{
-  animation: pastContentmovebottom2top1 2s backwards;
-  top:350px !important;
-}
-.pasttextmovebottom2top2 {
-    position: relative;
-    right: -290px;
-    font-size: 1.5rem;
-    animation: pasttextmovebottom2top2 2s backwards;
-    top: 95px !important;
-}
-.pastContentmovebottom2top2 {
-    animation: pastContentmovebottom2top2 2s backwards;
-    top: 230px !important;
-}
-.tabcontent {
-    /* padding-top: 30px; */
-    position: relative;
-    top: 0;
-}
-.pasttabcontent {
-    top: 230px;
-}
-.futurecontentmoveright2left1 {
-    position: absolute;
-    top: 260px;
+    top: 250px;
+    left: 860px;
     font-size: 1rem;
     text-align: left;
-    /*animation: futurecontentmoveright2left1 2s backwards;*/
-    left: 720px;
+  }
+  h2.center-left-1 {
+      position: absolute;
+      top: 250px;
+      left: 435px;
+      font-size: 1rem;
+      text-align: right;
+  }
+  h2.center-left-2 {
+      position: absolute;
+      top: 250px;
+      left: 485px;
+      font-size: 1rem;
+      text-align: right;
+  }
+  h2.top-center-right_9{
+      position: relative;
+      top: 250px;
+      right: -290px;
+      font-size: 1.5rem;
+  }
+  .pastContentmovetop2bottom {
+      position: absolute;
+      font-size: 1rem;
+      left: 670px;
+      text-align: right;
+      animation: movetop2bottom1 2s forwards;
+      top: 330px !important;
+  }
+  .pastContentmovetop2bottom1 {
+      position: absolute;
+      top: 385px !important;
+      font-size: 1rem;
+      left: 540px !important;
+      text-align: right;
+   /*   animation: movetop2bottom1 2s forwards;*/
+  }
+  .pasttextmovebottom2top1 {
+      position: relative;
+      right: -290px;
+      font-size: 1.5rem;
+      animation: pasttextmovebottom2top1 2s backwards;
+      top: 225px !important;
+  }
+  /*.pastContentmovetop2bottom1 {
+      position: absolute;
+      top: 450px !important;
+      font-size: 1rem;
+      left: 580px !important;
+      text-align: right;
+      animation: movetop2bottom1 2s forwards;
+  }*/
+  .pastContentmovebottom2top1{
+    animation: pastContentmovebottom2top1 2s backwards;
+    top:350px !important;
+  }
+  .pasttextmovebottom2top2 {
+      position: relative;
+      right: -290px;
+      font-size: 1.5rem;
+      animation: pasttextmovebottom2top2 2s backwards;
+      top: 95px !important;
+  }
+  .pastContentmovebottom2top2 {
+      animation: pastContentmovebottom2top2 2s backwards;
+      top: 230px !important;
+  }
+  .tabcontent {
+      /* padding-top: 30px; */
+      position: relative;
+      top: 0;
+  }
+  .pasttabcontent {
+      top: 230px;
+  }
+  .futurecontentmoveright2left1 {
+      position: absolute;
+      top: 260px;
+      font-size: 1rem;
+      text-align: left;
+      /*animation: futurecontentmoveright2left1 2s backwards;*/
+      left: 720px;
+  }
+  .ftextmovebottom2top1 {
+      position: relative;
+      font-size: 1.5rem;
+      /*animation: ftextmovebottom2top1 2s backwards;*/
+      top: 80px;
+      left: 475px;
+  }
+  .pasttextmoveleft2right{
+      position: relative;
+      top: 250px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-490px;
+    }
+  .pasttextmoveleft2right-1{
+      position: relative;
+      top: 250px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-525px;
+    }
+  .pasttextmoveleft2right-2{
+      position: relative;
+      top: 250px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-560px;
+    }
+    .pastContentmoveleft2right {
+      position: absolute;
+      top: 490px;
+      font-size: 1rem;
+      text-align: right;
+     /* animation: contentLeft2Right1 2s forwards;*/
+      left: 525px;
+    }
+  .svg2movebottom2top1{
+    top:-100px;
+   /* animation: svg2movebottom2top1 2s backwards;*/
+    left:75px;
+  }
+  .pasttextmovebottom2top1 {
+      position: relative;
+      right: -555px;
+      font-size: 1.5rem;
+      /*animation: pasttextmovebottom2top1 2s backwards;*/
+      top: 185px !important;
+  }
+  .pastContentmovebottom2top1{
+    /*animation: pastContentmovebottom2top1 2s backwards;*/
+    top:310px !important;
+  }
+  .svg2movebottom2top2{
+    top:-100px;
+    /*animation: svg2movebottom2top2 2s backwards;*/
+    left:200px;
+  }
+  .pasttextmovebottom2top2 {
+      position: relative;
+      left: 555px;
+      font-size: 1.5rem;
+     /* animation: pasttextmovebottom2top2 2s backwards;*/
+      top: 60px !important;
+  }
+  .pastContentmovebottom2top2 {
+     /* animation: pastContentmovebottom2top2 2s backwards;*/
+      top: 183px !important;
+  }
+  .svg1moveright2left1{
+     /*animation: svg1moveright2left1 2s backwards;*/
+     top:-64px;
+  }
+  .ftextmoveright2left1 {
+      position: relative;
+      top: 265px;
+      font-size: 1.5rem;
+      /*animation: ftextmoveright2left1 2s backwards;*/
+      left: 475px;
+  }
+  .svg1movebottom2top1{
+     /*animation: svg1movebottom2top1 2s backwards;*/
+     left:180px;
+  }
 }
-.ftextmovebottom2top1 {
+/* 1900 to 2000 */
+@media only screen and (min-width: 1900px) and (max-width: 2000px)  {
+  h2.top-center-right {
     position: relative;
+    top: 330px;
+    right: -380px;
     font-size: 1.5rem;
-    /*animation: ftextmovebottom2top1 2s backwards;*/
-    top: 80px;
-    left: 475px;
-}
-.pasttextmoveleft2right{
-    position: relative;
-    top: 250px;
-    font-size: 1.5rem;
-    /*animation: textLeft2Right1 2s forwards;*/
-    right:-490px;
   }
-.pasttextmoveleft2right-1{
-    position: relative;
-    top: 250px;
-    font-size: 1.5rem;
-    /*animation: textLeft2Right1 2s forwards;*/
-    right:-525px;
+  h2.top-center-left {
+      position: relative;
+      top: 372px;
+      left: 710px;
+      font-size: 1.5rem;
   }
-.pasttextmoveleft2right-2{
-    position: relative;
-    top: 250px;
-    font-size: 1.5rem;
-    /*animation: textLeft2Right1 2s forwards;*/
-    right:-560px;
+  h2.center-left {
+      position: absolute;
+      top: 336px;
+      left: 510px;
+      font-size: 1rem;
+      text-align: right;
   }
-  .pastContentmoveleft2right {
+  h2.center-right {
     position: absolute;
-    top: 490px;
+    top: 340px;
+    left: 1130px;
     font-size: 1rem;
-    text-align: right;
-   /* animation: contentLeft2Right1 2s forwards;*/
-    left: 525px;
+    text-align: left;
   }
-.svg2movebottom2top1{
-  top:-100px;
- /* animation: svg2movebottom2top1 2s backwards;*/
-  left:75px;
+  h2.center-left-1 {
+      position: absolute;
+      top: 330px;
+      left: 715px;
+      font-size: 1rem;
+      text-align: right;
+  }
+  h2.center-left-2 {
+      position: absolute;
+      top: 250px;
+      left: 760px;
+      font-size: 1rem;
+      text-align: right;
+  }
+  h2.top-center-right_9{
+      position: relative;
+      top: 360px;
+      right: -380px;
+      font-size: 1.5rem;
+  }
+  .pastContentmovetop2bottom {
+      position: absolute;
+      font-size: 1rem;
+      left: 670px;
+      text-align: right;
+      animation: movetop2bottom1 2s forwards;
+      top: 415px !important;
+  }
+  .pastContentmovetop2bottom1 {
+      position: absolute;
+      top: 517 px !important;
+      font-size: 1rem;
+      left: 818px !important;
+      text-align: right;
+   /*   animation: movetop2bottom1 2s forwards;*/
+  }
+  .pasttextmovebottom2top1 {
+      position: relative;
+      right: -290px;
+      font-size: 1.5rem;
+      animation: pasttextmovebottom2top1 2s backwards;
+      top: 225px !important;
+  }
+  /*.pastContentmovetop2bottom1 {
+      position: absolute;
+      top: 450px !important;
+      font-size: 1rem;
+      left: 580px !important;
+      text-align: right;
+      animation: movetop2bottom1 2s forwards;
+  }*/
+  .pastContentmovebottom2top1{
+    animation: pastContentmovebottom2top1 2s backwards;
+    top:350px !important;
+  }
+  .pasttextmovebottom2top2 {
+      position: relative;
+      right: -290px;
+      font-size: 1.5rem;
+      animation: pasttextmovebottom2top2 2s backwards;
+      top: 95px !important;
+  }
+  .pastContentmovebottom2top2 {
+      animation: pastContentmovebottom2top2 2s backwards;
+      top: 230px !important;
+  }
+  .tabcontent {
+      /* padding-top: 30px; */
+      position: relative;
+      top: 0;
+  }
+  .pasttabcontent {
+      top: 230px;
+  }
+  .futurecontentmoveright2left1 {
+      position: absolute;
+      top: 260px;
+      font-size: 1rem;
+      text-align: left;
+      /*animation: futurecontentmoveright2left1 2s backwards;*/
+      left: 720px;
+  }
+  .ftextmovebottom2top1 {
+      position: relative;
+      font-size: 1.5rem;
+      /*animation: ftextmovebottom2top1 2s backwards;*/
+      top: 80px;
+      left: 475px;
+  }
+  .pasttextmoveleft2right{
+      position: relative;
+      top: 370px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-585px;
+    }
+  .pasttextmoveleft2right-1{
+      position: relative;
+      top: 364px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-610px;
+    }
+  .pasttextmoveleft2right-2{
+      position: relative;
+      top: 382px;
+      font-size: 1.5rem;
+      /*animation: textLeft2Right1 2s forwards;*/
+      right:-641px;
+    }
+    .pastContentmoveleft2right {
+      position: absolute;
+      top: 490px;
+      font-size: 1rem;
+      text-align: right;
+     /* animation: contentLeft2Right1 2s forwards;*/
+      left: 525px;
+    }
+  .svg2movebottom2top1{
+    top:-100px;
+   /* animation: svg2movebottom2top1 2s backwards;*/
+    left:75px;
+  }
+  .pasttextmovebottom2top1 {
+      position: relative;
+      right: -644px;
+      font-size: 1.5rem;
+      /*animation: pasttextmovebottom2top1 2s backwards;*/
+      top: 305px !important;
+  }
+  .pastContentmovebottom2top1{
+    /*animation: pastContentmovebottom2top1 2s backwards;*/
+    top:448px !important;
+  }
+  .svg2movebottom2top2{
+    top:-100px;
+    /*animation: svg2movebottom2top2 2s backwards;*/
+    left:75px;
+  }
+  .pasttextmovebottom2top2 {
+      position: relative;
+      left: 646px;
+      font-size: 1.5rem;
+     /* animation: pasttextmovebottom2top2 2s backwards;*/
+      top: 179px !important;
+  }
+  .pastContentmovebottom2top2 {
+     /* animation: pastContentmovebottom2top2 2s backwards;*/
+      top: 310px !important;
+  }
+  .svg1moveright2left1{
+     /*animation: svg1moveright2left1 2s backwards;*/
+     top:-64px;
+  }
+  .ftextmoveright2left1 {
+      position: relative;
+      top: 265px;
+      font-size: 1.5rem;
+      /*animation: ftextmoveright2left1 2s backwards;*/
+      left: 475px;
+  }
+  .svg1movebottom2top1{
+     /*animation: svg1movebottom2top1 2s backwards;*/
+     left:180px;
+  }
+  .wholetextbottom2top1{
+    /*animation: bottom2top1 2s forwards;*/
+    top:280px;
+  } 
+  .wholetextbottom2top2{
+    /*animation: bottom2top2 2s forwards;*/
+    top:190px;
+  }
+  .svg2moveleft2right1{
+    left:-21px;
+    /*animation: moveleft2right2 2s forwards;*/
+    top:50px;
+  }
+  }
+@media (max-width:576px ) {
+  .futuretab_content {
+    padding: 0;
 }
-.pasttextmovebottom2top1 {
-    position: relative;
-    right: -555px;
-    font-size: 1.5rem;
-    /*animation: pasttextmovebottom2top1 2s backwards;*/
-    top: 185px !important;
-}
-.pastContentmovebottom2top1{
-  /*animation: pastContentmovebottom2top1 2s backwards;*/
-  top:310px !important;
-}
-.svg2movebottom2top2{
-  top:-100px;
-  /*animation: svg2movebottom2top2 2s backwards;*/
-  left:75px;
-}
-.pasttextmovebottom2top2 {
-    position: relative;
-    left: 555px;
-    font-size: 1.5rem;
-   /* animation: pasttextmovebottom2top2 2s backwards;*/
-    top: 60px !important;
-}
-.pastContentmovebottom2top2 {
-   /* animation: pastContentmovebottom2top2 2s backwards;*/
-    top: 183px !important;
-}
-.svg1moveright2left1{
-   /*animation: svg1moveright2left1 2s backwards;*/
-   top:-64px;
-}
-.ftextmoveright2left1 {
-    position: relative;
-    top: 265px;
-    font-size: 1.5rem;
-    /*animation: ftextmoveright2left1 2s backwards;*/
-    left: 475px;
-}
-.svg1movebottom2top1{
-   /*animation: svg1movebottom2top1 2s backwards;*/
-   left:180px;
-}
+
 }
 @media (max-width:576px ) {
   .futuretab_content {

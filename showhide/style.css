@@ -1,0 +1,461 @@
+body {
+  background-color: #0e1519;
+  color: #595959;
+  font-weight: 700;
+}
+.ft-sz-h {
+  font-size: 26px;
+}
+h1.ft-sz-mn {
+  font-weight: 700;
+}
+.bd-position-utils {
+  position: relative;
+  padding: 0;
+}
+.bd {
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 1px;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+.bd {
+  position: relative;
+  border: solid #dee2e6;
+  border-width: 1px 0 0;
+}
+.bd-position-utils .position-relative {
+  height: 100vh;
+  /* background-color: #f5f5f5; */
+} 
+.bd-position-utils .position-absolute {
+  height: auto;
+  border-radius: .25rem;
+} 
+.text-center-1 {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)!important;
+  text-align: center;
+}
+.start-22 {
+  left: 22%;
+}
+
+.end-22 {
+  right: 22%;
+}
+.text-left {
+  right: 110%;
+  text-align: right;
+}
+.text-right {
+  left: 110%;
+}
+
+/* Slide 9 */
+.slide-9-top {
+  top: 70%;
+}
+/*  */
+
+/* slide 5 */
+.triangle-1-rotate img {
+  transform: rotate(134deg);
+}
+.triangle-2-rotate img {
+  transform: rotate(134deg);
+}
+/*  */
+
+/* slide 4 */
+.triangle-2-verticle img {
+  transform: rotate(210deg);
+}
+
+.slide-4-text-left {
+  top: 120%;
+  right: 50%;
+}
+.slide-4-text-right {
+  top: 200%;
+  left: 50%;
+}
+.top-42 {
+  top: 42%;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 630%;
+  }
+
+  .triangle-3-verticle img {
+    transform: rotate(360deg);
+}
+/*  */
+
+@media (min-width: 576px) {
+  .bd-position-utils .position-absolute {
+    width: 6em;
+}
+h1.ft-sz-mn {
+  font-size: 20px;
+}
+.ft-sz-h {
+  font-size: 14px;
+}
+.text-right, .text-left {
+  top: 25%;
+}
+p.ft-sz-p {
+  font-size: 10px;
+}
+
+/* Slide 9 */
+.slide-9-text {
+  top: 110%;
+  left: 155%;
+}
+/*  */
+
+/* Slide 8 */
+.slide-6-rct-start {
+  right: 31%;
+}
+.slide-6-rct-end {
+  left: 31%;
+}
+.slide-8-text {
+  top: 130%;
+  left: 0%;
+}
+/*  */
+
+/* Slide 7 */
+.slide-7-rct-start {
+  right: 34%;
+}
+.slide-7-rct-end {
+  left: 34%;
+}
+.slide-7-text {
+  top: 140%;
+  left: 10%;
+}
+/*  */
+
+/* Slide 6 */
+.slide-6-text {
+  top: 150%;
+  left: 10%;
+}
+/*  */
+
+/* Slide 5 */
+.slide-5-rct-start {
+  right: 37%;
+}
+.slide-5-rct-end {
+  left: 37%;
+}
+.triangle-1-mr {
+  margin-top: -26px;
+}
+/*  */
+
+/* Slide 4 */
+.slide-4-rct-start {
+  right: 43.5%;
+}
+.slide-4-rct-end {
+  left: 43.5%;
+}
+/*  */
+
+/* slide 4 */
+.top-42 {
+  top: 46%;
+}
+.slide-4-rct-end {
+  left: 40.5%;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 340%;
+}
+/*  */
+}
+
+@media (min-width: 768px) {
+  .bd-position-utils .position-absolute {
+    width: 7em;
+}
+
+p.ft-sz-p {
+  font-size: 12px;
+  line-height: 18px;
+}
+h1.ft-sz-mn {
+  font-size: 24px;
+}
+.ft-sz-h {
+  font-size: 16px;
+}
+
+/* Slide 9 */
+.slide-9-text {
+  top: 110%;
+  left: 175%;
+}
+/*  */
+
+/* Slide 8 */
+.slide-6-rct-start {
+  right: 33.5%;
+}
+.slide-6-rct-end {
+  left: 33.5%;
+}
+/*  */
+
+/* Slide 7 */
+.slide-7-rct-start {
+  right: 36%;
+}
+.slide-7-rct-end {
+  left: 36%;
+}
+/*  */
+
+/* Slide 5 */
+.slide-5-rct-start {
+  right: 38%;
+}
+.slide-5-rct-end {
+  left: 38%;
+}
+.triangle-1-mr {
+  margin-top: -29px;
+}
+/*  */
+
+/* slide 4 */
+.top-42 {
+  top: 45%;
+}
+.slide-4-rct-end {
+  left: 42.5%;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 390%;
+  }
+/*  */
+
+}
+
+@media (min-width: 992px) {
+  .bd-position-utils .position-absolute {
+    width: 9em;
+}
+h1.ft-sz-mn {
+   font-size: 32px;
+ }
+ p.ft-sz-p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.ft-sz-h {
+  font-size: 20px;
+}
+.text-right, .text-left {
+  top: 25%;
+}
+
+/* Slide 9 */
+.slide-9-text {
+  top: 110%;
+  left: 180%;
+}
+/*  */
+
+/* Slide 8 */
+.slide-6-rct-start {
+  right: 34%;
+}
+.slide-6-rct-end {
+  left: 34%;
+}
+/*  */
+
+/* Slide 7 */
+.slide-7-rct-start {
+  right: 37%;
+}
+.slide-7-rct-end {
+  left: 37%;
+}
+/*  */
+
+/* Slide 5 */
+.slide-5-rct-start {
+  right: 39%;
+}
+.slide-5-rct-end {
+  left: 39%;
+}
+.triangle-1-mr {
+  margin-top: -44px;
+}
+/*  */
+
+/* slide 4 */
+.top-42 {
+  top: 43%;
+}
+.slide-4-rct-end {
+  left: 43.5%;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 490%;
+  }
+/*  */
+}
+
+@media (min-width: 1200px) {
+  .bd-position-utils .position-absolute {
+    width: 11em;
+}
+h1 {
+  font-size: 42px;
+}
+.text-right, .text-left {
+  top: 25%;
+}
+p.ft-sz-p {
+  font-size: 18px;
+}
+h1.ft-sz-mn {
+  font-size: 42px;
+}
+
+/* Slide 9 */
+.slide-9-text {
+  top: 110%;
+  left: 175%;
+}
+/*  */
+
+/* Slide 8 */
+.slide-6-rct-start {
+  right: 34%;
+}
+.slide-6-rct-end {
+  left: 34%;
+}
+/*  */
+
+/* Slide 7 */
+.slide-7-rct-start {
+  right: 36%;
+}
+.slide-7-rct-end {
+  left: 36%;
+}
+/*  */
+
+/* Slide 5 */
+.slide-5-rct-start {
+  right: 39%;
+}
+.slide-5-rct-end {
+  left: 39%;
+}
+.triangle-1-mr {
+  margin-top: -44px;
+}
+/*  */
+
+/* Slide 4 */
+.slide-4-rct-end {
+  left: 43.5%;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 580%;
+  }
+/*  */
+
+}
+
+@media (min-width: 1400px) {
+  .bd-position-utils .position-absolute {
+    width: 12em;
+}
+h1 {
+  font-size: 50px;
+}
+
+/* Slide 9 */
+.slide-9-text {
+  top: 110%;
+  left: 190%;
+}
+/*  */
+
+/* Slide 8 */
+.slide-6-rct-start {
+  right: 35%;
+}
+.slide-6-rct-end {
+  left: 35%;
+}
+/*  */
+
+/* Slide 7 */
+.slide-7-rct-start {
+  right: 37%;
+}
+.slide-7-rct-end {
+  left: 37%;
+}
+/*  */
+
+/* Slide 5 */
+.slide-5-rct-start {
+  right: 39%;
+}
+.slide-5-rct-end {
+  left: 39%;
+}
+.triangle-1-mr {
+  margin-top: -52px;
+}
+/*  */
+
+/* Slide 3 */
+.slide-3-text-right {
+  left: 50%;
+  top: 630%;
+  }
+  /*  */
+
+}

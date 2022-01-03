@@ -133,6 +133,99 @@ h1.ft-sz-mn {
     border-radius: 5px;
     color:#595959;
 }
+/* Mouse scroll about effect */
+.position_relt {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.mousesabout {
+	position: absolute;
+	bottom: 20px;
+	z-index: 5;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	display: block;
+}
+.mousesabout .mouse-icon {
+	display: block;
+	width: 25px;
+	height: 45px;
+	border: 2px solid #595959;
+	border-radius: 15px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+}
+.mousesabout .mouse-wheel {
+	height: 4px;
+	margin: 2px auto 0;
+	display: block;
+	width: 4px;
+	background-color: white;
+	border-radius: 50%;
+	-webkit-animation: 1.6s ease infinite wheel-up-down;
+	-moz-animation: 1.6s ease infinite wheel-up-down;
+	animation: 1.6s ease infinite wheel-up-down;
+}
+.mousesabout :hover .mouse-icon {
+	border-color: #fff;
+}
+ @keyframes wheel-up-down {
+ 0% {
+ margin-top: 2px;
+ opacity: 0;
+}
+ 30% {
+ opacity: 1;
+}
+ 100% {
+ margin-top: 20px;
+ opacity: 0;
+}
+}
+.arrowabout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	overflow: hidden;
+    transform: translate(-50%,-50%);
+}
+.arrowabout span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #595959;
+    border-right: 2px solid #595959;
+    transform: rotate(45deg);
+    margin:0;
+    animation: animate 3s infinite;
+}
+.arrowabout span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrowabout span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
 /*time line css start*/
 
 .title {

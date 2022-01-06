@@ -3,6 +3,7 @@ body {
   color: #595959;
   font-weight: 700;
 }
+.pointer       { cursor: pointer; }
 .tab .tablinks.active{
   background-color: #fff;
 }

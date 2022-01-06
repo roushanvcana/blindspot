@@ -24,9 +24,9 @@
        <div class="position-relative" id="slide13">
 
         <div class="position-absolute top-50 start-22 translate-middle-y slide13pastdiv">
-          <img src="./img/triangle.svg" alt="" class="pointer" onclick="pastexecutionnew()">
+          <img src="./img/triangle.svg" alt="" class="pointer" onclick="pastexecutionnew()" title="click here">
           <div class="position-absolute text-center-1" onclick="pastexecutionnew()">
-            <h3 class="ft-sz-h slide5pasttext">Past</h3>
+            <h3 class="ft-sz-h slide5pasttext pointer" title="click here">Past</h3>
           </div>
           <div class="position-absolute text-left">
             <p class="ft-sz-p">History<br>of Boston<br>Breakthrough<br>Innovations</p>
@@ -38,9 +38,9 @@
         </div>
 
         <div class="position-absolute top-50 end-22 translate-middle-y slide13futurediv">
-          <img src="./img/triangle.svg" alt="" class="pointer" onclick="futureexecutionnew()">
+          <img src="./img/triangle.svg" alt="" class="pointer" onclick="futureexecutionnew()" title="click here">
           <div class="position-absolute text-center-1" onclick="futureexecutionnew()">
-          <h3 class="ft-sz-h slide5futuretext">Future</h3>
+          <h3 class="ft-sz-h slide5futuretext pointer" title="click here">Future</h3>
           </div>
           <div class="position-absolute text-right">
             <p class="ft-sz-p">Thesis<br>Partners<br>Fellowship<br>Talent</p>
@@ -582,6 +582,7 @@
     $("#pastContent").hide()
     $("#futureContent").hide()
     $("#pasttextdiv").hide()
+    $(".position_relt").hide();
     x=1
     p=0
     f=0;
@@ -916,6 +917,7 @@
        p=1;
        f=0;
        $(".text-right").hide();
+       $(".position_relt").show();
       }
       else
         x=10;
@@ -927,6 +929,7 @@
        f=1;
        p=0;
        $(".text-left").hide()
+       $(".position_relt").show();
       }
       else
         x=10;
